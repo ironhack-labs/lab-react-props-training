@@ -1,0 +1,28 @@
+import React from "react";
+
+function Greetings({ lang, children }) {
+  const greetingsText = getGreetingsText(lang, children);
+
+  return (
+    <div>
+      <p>{greetingsText}</p>
+    </div>
+  );
+}
+
+function getGreetingsText(lang, name) {
+  switch (lang) {
+    case "de":
+      return `Hallo, ${name}!`;
+    case "en":
+      return `Hello, ${name}!`;
+    case "es":
+      return `¡Hola, ${name}!`;
+    case "fr":
+      return `Bonjour, ${name}!`;
+    default:
+      return `Greetings, ${name}!`;
+  }
+}
+
+export default Greetings;
