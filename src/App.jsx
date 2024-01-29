@@ -2,6 +2,7 @@ import "./App.css";
 import { BoxColor } from "./components/BoxColor";
 import { GreetingCard } from "./components/GreetingCard";
 import { IdCard } from "./components/IdCard";
+import { Random } from "./components/Random";
 
 const names = [
   {
@@ -85,6 +86,12 @@ function App() {
     <div>
           <GreetingCard lang='de'> Ludwig </GreetingCard>
           <GreetingCard lang='fr'> Francois </GreetingCard>
+    </div>
+
+    <h3>Random</h3>
+    <div>
+      <Random min={1} max={6} />
+      <Random min={1} max={100} />
     </div>
 
     <h3>Box Color</h3>
