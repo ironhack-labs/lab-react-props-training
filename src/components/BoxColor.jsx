@@ -2,9 +2,9 @@ export default function Random({ r, g, b }) {
   const divStyle = {
     backgroundColor: `rgb(${r},${g},${b})`,
   };
-  const rgbToHex = [255, 0, 0]
-    .map((x) => {
-      const hex = x.toString(16);
+  const rgbToHex = [r, g, b]
+    .map((rgbPart) => {
+      const hex = rgbPart.toString(16);
       return hex.length === 1 ? "0" + hex : hex;
     })
     .join("");
