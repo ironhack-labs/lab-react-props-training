@@ -1,0 +1,6 @@
+.id-card {
+  border: black 2px solid;
+  flex-wrap: nowrap;
+  display: flex;
+  height: 180px;
+}
