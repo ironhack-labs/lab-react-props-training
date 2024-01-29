@@ -82,17 +82,10 @@ function App() {
       </div>
 
     <h3>Greetings</h3>
-      <div>
-      {
-        languages.map((el) => {
-          return (
-          <GreetingCard key={el.id}>
-            {el.greet} name
-          </GreetingCard>
-                  )
-                })
-              }
-            </div>
+    <div>
+          <GreetingCard lang='de'> Ludwig </GreetingCard>
+          <GreetingCard lang='fr'> Francois </GreetingCard>
+    </div>
 
     <h3>Box Color</h3>
       <div>
