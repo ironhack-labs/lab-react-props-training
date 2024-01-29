@@ -1,4 +1,5 @@
 import "./App.css";
+import { BoxColor } from "./components/BoxColor";
 import { GreetingCard } from "./components/GreetingCard";
 import { IdCard } from "./components/IdCard";
 
@@ -46,6 +47,27 @@ const languages = [
   },
 ]
 
+const boxColors = [
+  {
+    id: 1,
+    r: 255,
+    g: 0,
+    b: 0,
+  },
+  {
+    id: 2,
+    r: 128,
+    g: 255,
+    b: 0,
+  },
+  {
+    id: 3,
+    r: 0,
+    g: 0,
+    b: 255,
+  },
+]
+
 function App() {
   return (
     <div className="App">
@@ -71,6 +93,16 @@ function App() {
                 })
               }
             </div>
+
+    <h3>Box Color</h3>
+      <div>
+      {
+        boxColors.map((el) => {
+          return  <BoxColor key={el.id} {...el} /> 
+        })
+              }
+            </div>
+
     </div>
   );
 }
