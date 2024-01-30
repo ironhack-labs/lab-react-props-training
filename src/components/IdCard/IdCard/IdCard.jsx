@@ -4,7 +4,7 @@ const IdCard = ({ lastName, firstName, gender, height, birth, picture }) => {
   {
     /* birth is an object so it needs to be converted into a string before we add it to html. */
   }
-  const birthString = birth.toString();
+  const birthString = birth.toDateString();
   return (
     <div className="idCard">
       <img src={picture} alt={`${firstName} ${lastName}`} />
