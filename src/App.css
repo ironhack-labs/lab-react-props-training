@@ -1,0 +1,9 @@
+.credit-card {
+    display: flex;
+    width: 350px;
+    height: 200px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    margin: 20px;
+}
+
