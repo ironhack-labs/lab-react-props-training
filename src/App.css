@@ -1,0 +1,50 @@
+.id-card {
+    display: flex;
+    border: 2px solid black;
+    margin: 10px;
+    
+}
+
+.id-card ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.id-card li {
+    list-style: none;
+   
+
+}
+
+.greetings ,
+.random,
+.BoxColor {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    width: 100vw;
+
+}
+
+.driver-card {
+    background-color: rgb(90, 109, 165);
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    align-items:flex-end;
+    justify-content: space-between;
+    height: 120px;
+    line-height: 0.5; 
+    height: 250px;
+    width: 100vw;
+}
+
+.driver-foto {
+    height: 50px;
+    border-radius: 50px; 
+    object-fit: cover;
+}
