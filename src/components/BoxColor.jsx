@@ -1,7 +1,8 @@
 let BoxColor = (props) => {
   let divStyle = {
     backgroundColor: `rgb(${props.r},${props.g},${props.b})`,
-    height: "100px",
+    height: "200px",
+    width: "600px",
   };
   return (
     <div className="boxColorContainer" style={divStyle}>

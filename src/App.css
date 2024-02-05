@@ -25,3 +25,19 @@ b {
   margin: 4px;
   font-weight: 700;
 }
+.driverContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: rgb(48, 30, 167);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.driverContainer img {
+  object-fit: cover;
+  height: 80%;
+  width: auto;
+  border-radius: 50%;
+}
