@@ -1,0 +1,95 @@
+.box {
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.box img {
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+p {
+    line-height: 0.6em;
+    padding-left: 10px;
+}
+
+.card {
+    margin: 10px;
+    position: relative;
+    width: 302px;
+    height: 192px;
+    border-radius: 12px;
+    border: 1px grey solid;
+}
+
+.card img {
+    position: absolute;
+    height: 25px;
+    top: 20px;
+    right: 20px;
+}
+
+.card h2 {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+}
+
+.card p {
+    position: absolute;
+    top: 128px;
+    left: 20px;
+    margin: 0;
+    align-items: center;
+    padding: 0px;
+    line-height: 1.4em;
+}
+
+#bankName {
+    left: 150px;
+}
+
+.DriverBox {
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    height: 120px;
+    display: flex;
+    background-color: rgb(69,94,181);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.DriverBox img{
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin: auto 0;
+    margin-right: 10px;
+}
+
+.contentInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin: auto 0;
+}
+
+.contentInfo h2{
+    margin: 0;
+    font-size: 20px;
+}
+
+.contentInfo p{
+    margin: 15px 0 0 0;
+    padding: 0;
+}
