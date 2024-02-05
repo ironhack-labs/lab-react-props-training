@@ -1,0 +1,8 @@
+.user-card {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  margin: 10px;
+  border: solid;
+  border-color: black;
+}
