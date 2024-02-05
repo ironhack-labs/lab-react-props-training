@@ -1,0 +1,36 @@
+.creditcard {
+  height: 200px;
+  width: 380px;
+  background-color: rgb(157, 255, 0);
+  margin: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 20px 30px;
+}
+
+.type {
+  text-align: right;
+}
+
+.type img {
+  /* background-color: azure; */
+  height: 25px;
+}
+
+.creditnumber {
+  font-size: 2.2em;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.details__bankdetails {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details__bankdetails__bankname {
+    width: 200px;
+}
