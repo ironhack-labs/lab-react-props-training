@@ -1,0 +1,17 @@
+.cardContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin: 10px;
+  border: 1px solid black;
+}
+.infoContainer {
+  margin-left: 10px;
+}
+b {
+  margin-right: 5px;
+}
+.greeter {
+  border: 1px solid black;
+  margin-left: 10px;
+}
