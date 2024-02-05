@@ -11,11 +11,11 @@ function CreditCard(props) {
     }
 
     return (
-        <div class="card-box" style={{backgroundColor: props.bgColor}}>
-            <img src={imgSrc} alt={props.type} class="cc-img"/>
+        <div className="card-box" style={{backgroundColor: props.bgColor}}>
+            <img src={imgSrc} alt={props.type} className="cc-img"/>
             <div style={{color: props.color}}>
-                <p class="cc-num">•••• •••• •••• {props.number.slice(-4)}</p>
-                <p class="cc-info">Expires: {props.expirationMonth}/{props.expirationYear} &nbsp;&nbsp; {props.bank}<br/>
+                <p className="cc-num">•••• •••• •••• {props.number.slice(-4)}</p>
+                <p className="cc-info">Expires: {props.expirationMonth}/{props.expirationYear} &nbsp;&nbsp; {props.bank}<br/>
                 {props.owner}</p>
             </div>
         </div>

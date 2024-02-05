@@ -50,3 +50,23 @@
     position: absolute;
     bottom: 5px;
 }
+
+.rectangle {
+    background-color: royalblue;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    line-height: 0.5; 
+}
+
+#rect-img {
+    height: 100px;
+    border-radius: 100px;
+    width: 100px;
+    object-fit: cover;
+}

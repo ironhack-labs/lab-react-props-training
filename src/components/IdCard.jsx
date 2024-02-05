@@ -1,6 +1,6 @@
 function IdCard(props) {
     return ( 
-        <div id="id-card" class="box">
+        <div id="id-card" className="box">
             <img src={props.picture} alt="picture" />
             <div id="info">
                 <p><b>First name:</b> {props.firstName}<br/>
