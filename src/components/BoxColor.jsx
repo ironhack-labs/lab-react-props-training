@@ -1,15 +1,5 @@
-function BoxColor (r, g, b) {
-
-    const boxStyle = {
-        backgroundColor: `rgb(${r}, ${g}, ${b})`,
-      };
-
-    return (
-    <div style={boxStyle} className="BoxColor">
-      <p>{`rgb(${r}, ${g}, ${b})`}</p>
-    </div>
-  );
+function BoxColor(props) {
+  return <div className="BoxColor" style={{backgroundColor: `rgb(${props.r}, ${props.g}, ${props.b})`}}>rgb({props.r},{props.g}, {props.b})</div>
 }
 
-
-export default BoxColor; 
+export default BoxColor;
