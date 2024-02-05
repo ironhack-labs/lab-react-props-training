@@ -1,0 +1,11 @@
+article {
+    display: flex;
+    border-color: black;
+    border: 2px solid;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
