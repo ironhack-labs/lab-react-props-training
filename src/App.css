@@ -18,3 +18,10 @@ b {
 .randomNum {
   margin-left: 10px;
 }
+.boxColorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  font-weight: 700;
+}
