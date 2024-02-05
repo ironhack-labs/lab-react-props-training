@@ -1,0 +1,19 @@
+.box {
+  margin: 1vh;
+  display: flex;
+  border: 1px solid black;
+}
+
+.IdCard p {
+  font-weight: bold;
+}
+
+.IdCard span {
+  font-weight: normal;
+}
+
+.IdCard div {
+  font-size: 0.9em;
+  line-height: 0.2em;
+  margin: 0 0.5vh;
+}
