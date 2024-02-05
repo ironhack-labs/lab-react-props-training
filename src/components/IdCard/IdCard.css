@@ -1,0 +1,23 @@
+.id-card {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  border: 1px solid black;
+  display: flex;
+  gap: 8px;
+}
+
+.id-card__image {
+  width: 128px;
+  height: 128px;
+  background-color: rgb(128, 128, 128);
+}
+
+.id-card__text {
+  margin: 0;
+  font-weight: 700;
+}
+
+.id-card__text_type_value {
+  font-weight: 400;
+}
