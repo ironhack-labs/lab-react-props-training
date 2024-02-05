@@ -18,3 +18,35 @@
     padding: 30px;
     text-align: center;
 }
+
+.cc-img {
+    width: 50px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.card-box {
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.cc-num {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    font-size: 28px;
+}
+
+.cc-info {
+    font-size: 12px;
+    position: absolute;
+    bottom: 5px;
+}
