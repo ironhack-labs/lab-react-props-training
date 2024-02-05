@@ -1,5 +1,4 @@
 function IdCard(props) {
-    console.log(props)
     return ( 
         <div id="id-card" class="box">
             <img src={props.picture} alt="picture" />
