@@ -1,0 +1,14 @@
+#box {
+  padding: 5px 10px;
+}
+
+#container {
+  border: 1px solid black;
+  width: 95vw;
+  display: flex;
+  line-height: 0.3;
+}
+
+#img-container {
+  padding: 10px 10px;
+}
