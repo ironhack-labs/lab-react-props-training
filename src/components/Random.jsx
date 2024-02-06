@@ -1,8 +1,8 @@
-const Random = (props) => {
-    const { min, max } = props
-    const randomNumber = Math.floor(Math.random() * (max - min)) + min
+function Random(props) {
+
+    let randomNumber = Math.floor(Math.random() * (props.max - props.min+1)) + props.min
   
-    return <p className="Random">Random value between {min} and {max} {"=>"} {randomNumber}</p>
+    return <p>Random value between {props.min} and {props.max} {"=>"} {randomNumber}</p>
   }
   
   export default Random;
