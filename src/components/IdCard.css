@@ -1,0 +1,12 @@
+.IdCard {
+  display: flex;
+  align-items: center;
+}
+
+.IdCard img {
+  margin: 10px;
+}
+
+.text p {
+  line-height: 0.3;
+}
