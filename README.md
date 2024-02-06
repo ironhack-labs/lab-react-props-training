@@ -23,9 +23,9 @@
 
 ## Introduction
 
-In this exercise, you will practice working with 'props' in React. You'll learn how to pass data to React components using props, and how to access and utilize the data received through props inside components.
+In this exercise you will practice working with props - passing data to React components through props and accessing and using the props data within the components.
 
-To see the expected result for each iteration, refer to the solution example: [**React Training - solution**](https://5c6c2a0de07b084ce35373ee--determined-aryabhata-a8a833.netlify.com/).
+<!-- To see the expected result for each iteration, refer to the solution example: [**React Training - solution**](https://5c6c2a0de07b084ce35373ee--determined-aryabhata-a8a833.netlify.com/). -->
 
 ## Setup
 
@@ -103,7 +103,7 @@ Create and render an `IdCard` component with 6 props:
 
 **Expected Output:**
 
-![IdCard component](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/react-training/01-idcard.png)
+![image](https://user-images.githubusercontent.com/5306791/52976030-22b0d200-33c8-11e9-91fe-e3ce0fa14078.png)
 
 
 
@@ -129,7 +129,7 @@ The component should display a greeting text in the chosen language.
 
 **Expected Output:**
 
-![Greetings component](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/react-training/02-greetings.png)
+![image](https://user-images.githubusercontent.com/5306791/52957158-57edfd80-3391-11e9-8726-93c1a3389016.png)
 
 
 
@@ -155,7 +155,7 @@ The component should display a random integer in the range between the `min` and
 
 **Expected Output:**
 
-![Random component](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/react-training/03-random.png)
+![image](https://user-images.githubusercontent.com/5306791/52957202-718f4500-3391-11e9-9b45-d1172067e877.png)
 
 
 
@@ -182,7 +182,7 @@ The component should take 3 props:
 
 **Expected Output:**
 
-![image](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/react-training/04-boxcolor.png)
+![image](https://user-images.githubusercontent.com/5306791/52957816-ec0c9480-3392-11e9-9e00-67094fa2b431.png)
 
 As a bonus, you can also display the hex values of the color (e.g., `#ff0000` for red).
 
@@ -248,7 +248,7 @@ Take your time to make the component look as close to the *expected output* as p
 
 **Expected Output:**
 
-![CreditCard component](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/react-training/05-creditcard.png)
+![image](https://user-images.githubusercontent.com/5306791/52975678-ac5fa000-33c6-11e9-8cbf-7d13a8a0f625.png)
 
 
 
@@ -277,7 +277,7 @@ The component should take 1 prop:
 
 **Expected Output:**
 
-![Rating component](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/react-training/06-rating.png)
+![image](https://user-images.githubusercontent.com/5306791/52972787-39512c00-33bc-11e9-93d8-428d835442fd.png)
 
 
 
@@ -322,7 +322,7 @@ The component should take 4 props:
 
 **Expected Output:**
 
-![DriverCard component](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/react-training/07-driver-card.png)
+![image](https://user-images.githubusercontent.com/5306791/52972847-66054380-33bc-11e9-92e0-8e48d1ab0212.png)
 
 
 
