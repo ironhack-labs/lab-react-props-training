@@ -2,7 +2,7 @@ import React from "react";
 
 function BoxColor({r,g,b}){
 
-    const color = 'rgb(${r}, ${g}, ${b})';
+    const color = `rgb(${r}, ${g}, ${b})`;
 
 
 
