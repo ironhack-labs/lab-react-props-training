@@ -5,6 +5,7 @@ function IdCard(props) {
         alignContent: "column",
         marginLeft: "50px",
         marginTop: "50px",
+        marginBottom: "50px",
         border: "1px solid black",
         padding: "5px",
         lineHeight: "8px"
@@ -14,6 +15,7 @@ function IdCard(props) {
 
     
     <div style={divStyle}>
+        
         <img src={props.picture} width="200px" />
         <div>
         <p>First name: {props.firstName}</p>

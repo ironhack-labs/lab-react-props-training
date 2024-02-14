@@ -1,8 +1,15 @@
 function Greetings(props) {
   
+  const greetingsStyles = {
+    marginLeft: "50px",
+    marginTop: "20px",
+    border: "1px solid black",
+    paddingLeft: "5px",
+  }
+
     return (
-    <div>
-        <p>{props.lang}</p>
+    <div style={greetingsStyles}>
+        <p>{props.children}</p>
     </div>
   )
 }
