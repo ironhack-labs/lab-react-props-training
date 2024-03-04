@@ -1,9 +1,12 @@
 import "./App.css";
+import { Greetings } from "./components/Greetings";
 import { IdCard } from "./components/IdCard";
 
 function App() {
   return (
     <div className="App">
+      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings>
       <IdCard
         lastName="Doe"
         firstName="John"
