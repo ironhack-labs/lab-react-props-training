@@ -1,15 +1,15 @@
 const IdCard = ({lastName, firstName, gender, height, birth, picture}) =>{
 return (
-    <>
-    
+    <div id="info">
    <img src={picture} alt="Img"/>
-   <p>Fisrt Name : {firstName}</p>
-   <p>Last Name : {lastName}</p>
-   <p>Gender : {gender}</p>
-   <p>Height : {height}</p>
-   <p>Birth : {birth.toDateString( )}</p>
-   
-  </>
+    <div id="text">
+   <p><strong>Fisrt Name :</strong> {firstName}</p>
+   <p><strong>Last Name :</strong> {lastName}</p>
+   <p><strong>Gender :</strong> {gender}</p>
+   <p><strong>Height :</strong>{height} cm</p>
+   <p><strong>Birth :</strong> {birth.toDateString( )}</p>
+    </div>
+  </div>
 )
 }
 export default IdCard;
