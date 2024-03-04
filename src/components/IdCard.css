@@ -6,7 +6,8 @@
 }
 
 #card-image {
-  width: 10rem;
+  width: 12rem;
+  padding: 0px 0.3em;
 }
 
 span {

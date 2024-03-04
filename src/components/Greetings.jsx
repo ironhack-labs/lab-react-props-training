@@ -6,6 +6,10 @@ export const Greetings = ({ children, lang }) => {
       return "Hallo";
     } else if (lang === "fr") {
       return "Bonjour";
+    } else if (lang === "en") {
+      return "Howdy";
+    } else if (lang === "es") {
+      return "Joder";
     }
   };
 

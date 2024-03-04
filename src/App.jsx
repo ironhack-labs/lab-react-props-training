@@ -17,7 +17,6 @@ function App() {
         birth={new Date("1992-07-14")}
         picture="https://randomuser.me/api/portraits/men/44.jpg"
       />
-
       <IdCard
         lastName="Delores "
         firstName="Obrien"
