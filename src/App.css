@@ -1,0 +1,19 @@
+#cardSection {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+#cardSection img {
+  margin: 4px;
+}
+
+#cardDiv {
+  line-height: 4px;
+}
+
+#greetings {
+  padding: 10px;
+  border: 2px solid black;
+}
