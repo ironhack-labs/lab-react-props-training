@@ -1,5 +1,5 @@
 const Random = ({ min, max }) => {
-  const result = Math.floor(Math.random() * max) + 1;
+  const result = Math.floor(Math.random() * max) + min;
   return (
     <>
       <p>
