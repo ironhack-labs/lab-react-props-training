@@ -6,7 +6,7 @@ const IdCard = ({ lastName, firstName, gender, height, birth, picture }) => {
         <div>
           <img src={picture} alt={`${firstName} ${lastName}`} />
         </div>
-        <div>
+        <div className="IdCard">
           <p>First name: {firstName}</p>
           <p>Last name: {lastName}</p>
           <p>Gender: {gender}</p>

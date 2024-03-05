@@ -7,10 +7,12 @@ const BoxColor = ({ r, g, b }) => {
     textAlign: 'center',
     border: '3px black solid'
   };
-
+  const convertToHex = (r , g , b) => {
+    return val.toString(16).length === 1 ? '0' + hex : hex;
+  }
   return (
     <>
-      <div style={divStyle}>rgb({r},{g},{b})</div>
+      <div style={divStyle}>rgb({r},{g},{b}), {convertToHex}</div>
     </>
   );
 };
