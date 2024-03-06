@@ -1,0 +1,7 @@
+.container {
+  padding: 5px;
+  border: solid black 1px;
+  display: flex;
+  margin: 10px;
+  line-height: 50%;
+}
