@@ -1,0 +1,26 @@
+/* .id-card {
+    display: flex;
+    border: 1px solid;
+    padding: 2px;
+    margin: 0.5em;
+  }
+  
+  #card-image {
+    width: 12rem;
+    padding: 0px 0.3em;
+  }
+  
+  span {
+    font-weight: 700;
+  } */
+
+.card-id {
+  display: flex;
+  border: 1px solid;
+  padding: 2px;
+  margin: 0.5em;
+}
+#card-image {
+  width: 12rem;
+  padding: 0px 1;
+}
