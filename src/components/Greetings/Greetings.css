@@ -1,0 +1,8 @@
+.Greetings {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  font-weight: 400;
+  margin: 0.8rem;
+  padding: 0.5rem;
+}
