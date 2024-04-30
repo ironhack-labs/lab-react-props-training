@@ -1,0 +1,16 @@
+body{
+    background-color: darkgray;
+}
+.container{
+    gap: 5px;
+    margin: 10px;
+    padding: 5px;
+    border: solid 1px black;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+}
+.container img{
+    width: 200px;
+}
