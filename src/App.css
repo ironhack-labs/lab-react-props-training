@@ -1,0 +1,67 @@
+#paco{
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+    border: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 600px;
+
+
+}
+.foto{
+    margin: 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+
+}
+#parrafos{
+    text-align: justify;
+    margin-left: 20px; 
+}
+#greetings{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+
+    border: 1px solid black;
+}#greetings p{
+    margin-left: 10px;
+    font-weight: 500;
+
+}
+#random{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+
+    border: 1px solid black;
+}
+#random p{
+    margin-left: 10px;
+    font-weight: 500;
+
+}
+#colorbox{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 600px;
+    border: 1px solid black;
+    
+}
+#colorbox p{
+    margin-left: 10px;
+    font-weight: 500;
+
+}
