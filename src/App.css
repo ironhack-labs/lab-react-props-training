@@ -1,0 +1,49 @@
+#id-card {
+    border: 1.5px solid;
+    display: flex;
+    margin: 10px 5px;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+#id-info{
+    font-weight: 700;
+    line-height: 10%;
+    top: 0;
+}
+
+#id-info span{
+    font-weight: normal;
+}
+
+#greet {
+    border: 1.5px solid;
+    margin: 10px 5px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0;
+    height: 50px;
+}
+
+#random-container{
+    border: solid 1.5px;
+    padding: 0 5px;
+    margin: 10px 5px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+#random-container p{
+    margin: 0;
+}
+
+#color-container{
+display: flex;
+text-align: center;
+justify-content: center;
+margin: 10px 5px;
+border: solid 1.7px;
+font-weight: 600;
+}
