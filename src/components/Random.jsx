@@ -1,12 +1,12 @@
 import React from "react";
 
 function Random(props) {
-  let number =
-    Math.floor(Math.randomandom() * (props.max - props.min + 1)) + props.min;
+  const { min, max } = props;
+  let randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
   return (
     <div>
       <p>
-        Random Value between {props.min} and {props.max} = {number}{" "}
+        Random Value between {min} and {max} = {randomNnumber}
       </p>
     </div>
   );

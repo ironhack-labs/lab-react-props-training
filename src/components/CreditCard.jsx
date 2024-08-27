@@ -1,35 +1,42 @@
 import React from "react";
+import visaImage from "../assets/images/visa.png";
+import mastercardImage from "../assets/images/master-card.svg";
 
 function CreditCard(props) {
+  const {
+    type,
+    number,
+    expirationMonth,
+    expirationYear,
+    bank,
+    owner,
+    bgColor,
+    color,
+  } = props;
+  const cardLogo = type === "visa" ? visaImage : mastercardImage;
+  const hideNumber = `.... .... .... ${number.slice(-4)}`;
   return (
-    <div>
+    <div
+      style={{
+        backgroundColor: bgColor,
+        color: color,
+        width: "250px",
+        padding: "20px",
+        borderRadius: "10px",
+        margin: "10px",
+      }}
+    >
+      <img
+        src={cardLogo}
+        alt={type}
+        style={{ width: "50px", height: "50px" }}
+      />
+      <p>{hideNumber}</p>
       <p>
-        <b>type:</b> {props.type}
+        Expires {expirationMonth}/{expirationYear}
       </p>
-      <p>
-        <b>number:</b> {props.number}
-      </p>
-      <p>
-        <b>expiration month:</b>
-        {props.expirationMonth}
-      </p>
-      <p>
-        <b>expiration year:</b>
-        {props.expirationYear}
-      </p>
-      <p>
-        <b>bank:</b> {props.bank}
-      </p>
-      <p>
-        <b>owner:</b> {props.owner}
-      </p>
-      <p>
-        <b>bgColor:</b>
-        {props.bgColor}
-      </p>
-      <p>
-        <b>color:</b> {props.color}
-      </p>
+      <p>{bank}</p>
+      <p>{owner}</p>
     </div>
   );
 }
