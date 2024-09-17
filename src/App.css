@@ -1,0 +1,21 @@
+
+.id-card{
+    border: 3px solid black;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+}
+.infoCard{
+    margin-left: 15px;
+}
+.hallo{
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+.bonjour{
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 20px;
+
+}
