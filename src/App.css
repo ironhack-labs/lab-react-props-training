@@ -1,0 +1,15 @@
+.contenedor {
+    position: relative;
+    width: 800px;
+    height: 30%;
+    border: 2px solid black;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+
+}
+.contenido{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
