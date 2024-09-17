@@ -3,3 +3,24 @@
   width: 500px;
   border: 2px solid black;
 }
+.creditCard {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+}
+.card {
+  display: flex;
+}
+.cardDrive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(70, 70, 196);
+  gap: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  color: white;
+}

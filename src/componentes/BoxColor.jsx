@@ -2,6 +2,7 @@ function BoxColor(props) {
   let r = props.r
   let g = props.g
   let b = props.b
+
   const componentToHex = (c) => {
     const hex = c.toString(16)
     return hex.length == 1 ? '0' + hex : hex
@@ -22,6 +23,7 @@ function BoxColor(props) {
       <h1>
         rgb({r},{g},{b})
       </h1>
+      <h1>{rgbToHex(r, g, b)}</h1>
     </div>
   )
 }
