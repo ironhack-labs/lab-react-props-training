@@ -1,0 +1,36 @@
+.containerCreditCard {
+  padding: 15px;
+  width: 350px;
+  border-radius: 20px;
+  margin: 15px;
+}
+.imgCreditCard {
+  text-align: end;
+}
+.imgCreditCard img {
+  width: 40px;
+  margin-right: auto;
+}
+.numberCreditCard {
+  display: flex;
+  gap: 10px;
+  font-size: 1.5rem;
+  align-items: center;
+  padding-inline: 20px;
+}
+.puntos {
+  font-size: 4rem;
+  margin: 0;
+  margin: auto;
+  margin-bottom: 8px;
+}
+.dateCreditCard {
+  display: flex;
+  gap: 10px;
+}
+.dateCreditCard span {
+  margin-left: 20px;
+}
+.nameCreditCard {
+  margin: 0;
+}
