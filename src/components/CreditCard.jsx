@@ -1,3 +1,6 @@
+import visa from "../assets/images/visa.png"
+import master from "../assets/images/master-card.svg"
+import "./CreditCard.css"
 
 function CreditCard(props) {
 
@@ -5,12 +8,19 @@ function CreditCard(props) {
         backgroundColor: `${props.bgColor}`,
     }
   return (
-    <div style={styleCard}>
-        <img src="" alt="" />
-        <p>numero de la tarjeta</p>
-        <p>fecha de expiracion</p>
-        <p>bank</p>
-        <p>owner</p>
+    <div style={styleCard} className="tarjeta">
+        <img src= {props.type === "Visa" ? visa : master} alt="" />
+        <div className="numerito" style={{color : props.type === "Visa" ? "white" : "black"}}>
+          <p className="puntos">.... .... ....</p>
+          <p>{props.number.slice(12)}</p>
+        </div>
+        <div style={{color : props.type === "Visa" ? "white" : "black"}}>
+          <div className="expires">
+            <p>Expires {props.expirationMonth}/{props.expirationYear%100}</p>
+            <p>{props.bank}</p>
+          </div>
+          <p className="owner">{props.owner}</p>
+        </div>
     </div>
   )
 }
