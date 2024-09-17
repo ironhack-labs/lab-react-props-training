@@ -5,8 +5,44 @@
   border: 3px solid black;
 }
 
+.colors {
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+}
+
+.colors p {
+  margin: 10px 0;
+}
+
+.driver {
+  background-color: #455EB5;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.driver img {
+  max-width: auto;
+  border-radius: 50px;
+  height: 70px;
+}
+
 .text {
   display: flex;
   flex-direction: column;
   padding-left: 5px;
+}
+
+.stars {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  padding: 5px;
+  margin: 5px;
+  font-size: 30px;
 }
