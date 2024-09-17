@@ -16,6 +16,7 @@ h1 {
   margin-bottom: 10px;
   margin: 10px;
   font-family: Arial, sans-serif;
+  background-color: blanchedalmond;
 }
 
 .id-image img {
@@ -42,6 +43,8 @@ h1 {
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
+  background-color: lightblue;
+
 }
 
 .random-value {
@@ -49,4 +52,6 @@ h1 {
   border: 1px solid black;
   border-radius: 10px;
   padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
 }
