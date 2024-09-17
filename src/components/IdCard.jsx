@@ -12,13 +12,13 @@ function IdCard(props) {
       </div>
 
       <div className="id-info">
-        <p>First name: {firstName}</p>
-        <p>Last name: {lastName}</p>
-        <p>Gender: {gender}</p>
-        <p>Height: {height}</p>
-        <p>Birth: {birth.toDateString()}</p>   
+        <p><strong>First name:</strong> {firstName}</p>
+        <p><strong>Last name:</strong> {lastName}</p>
+        <p><strong>Gender:</strong> {gender}</p>
+        <p><strong>Height:</strong> {height}</p>
+        <p><strong>Birth:</strong> {birth.toDateString()}</p>   
       </div> 
-      
+
     </div>
   )
 }
