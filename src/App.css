@@ -1,16 +1,23 @@
+h1 {
+  margin: 15px;
+  color: grey;
+}
+
 .id-card {
   display: flex;
   align-items: center;
   border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
   margin-bottom: 10px;
   margin: 10px;
-  padding: 10px;
   font-family: Arial, sans-serif;
 }
 
 .id-image img {
   height: 100px;
   margin-right: 20px;
+  border-radius: 5px;
 }
 
 .id-info {
@@ -22,4 +29,13 @@
 .id-info p {
   margin: 5px;
   line-height: 10px;
+}
+
+.Greetings {
+  margin: 10px;
+  line-height: 20px;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
 }
