@@ -95,4 +95,35 @@ h1 {
   font-size: 42px;
   color: black;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.driver-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  background-color: #404fed;
+  border-radius: 8px;
+  padding: 10px 5px;
+  margin: 5px;
+  width: 90%;
+  max-width: 400px;
+  color: white;
+}
+
+.driver-image img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-right: 5px;
+}
+
+.driver-info {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.driver-info h4 {
+  margin-bottom: 5px;
 }
