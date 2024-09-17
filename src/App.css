@@ -1,0 +1,13 @@
+.contenedor {
+  border:solid 2px black;
+  display: flex;
+  margin:5px
+}
+
+.creditCard {
+  width:400px;
+  height:130px;
+  border-radius: 15px;
+  padding:10px;
+  margin: 10px;
+}
