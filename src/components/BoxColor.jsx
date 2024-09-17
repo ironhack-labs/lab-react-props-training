@@ -15,7 +15,7 @@ function BoxColor({ r, g, b }) {
   const style = {
     backgroundColor: `rgb(${r},${g},${b})`,
     padding: '10px',
-    margin: '10px',
+    marginTop: '10px',
     border: '1px solid black',
     borderRadius: 10
   }

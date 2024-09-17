@@ -1,9 +1,9 @@
 .App {
   min-width: 300px;
+  margin: 10px;
 }
   
 h1 {
-  margin: 15px;
   color: grey;
 }
 
@@ -14,7 +14,6 @@ h1 {
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 10px;
-  margin: 10px;
   font-family: Arial, sans-serif;
   background-color: blanchedalmond;
 }
@@ -42,16 +41,52 @@ h1 {
   border: 1px solid black;
   border-radius: 10px;
   padding: 10px;
-  margin: 10px;
+  margin-top: 10px;
   background-color: lightblue;
 
 }
 
 .random-value {
-  margin: 10px;
   border: 1px solid black;
   border-radius: 10px;
+  margin-top: 10px;
   padding: 10px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 600;
+}
+
+.credit-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.card-type {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-number {
+  font-size: 18px;
+  padding: 8px 0;
+}
+
+.card-info {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 100%;
 }
