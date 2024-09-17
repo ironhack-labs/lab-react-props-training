@@ -1,0 +1,129 @@
+.App {
+  min-width: 300px;
+  margin: 10px;
+}
+
+h1 {
+  color: grey;
+}
+
+.id-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  background-color: blanchedalmond;
+}
+
+.id-image img {
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.id-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.id-info p {
+  margin: 5px;
+  line-height: 10px;
+}
+
+.Greetings {
+  line-height: 20px;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: lightblue;
+
+}
+
+.random-value {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+.credit-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.card-type {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-number {
+  font-size: 18px;
+  padding: 8px 0;
+}
+
+.card-info {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+  max-width: 100%;
+}
+
+.rating-container {
+  font-size: 42px;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.driver-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #404fed;
+  border-radius: 8px;
+  padding: 10px 5px;
+  margin: 5px;
+  width: 90%;
+  max-width: 400px;
+  color: white;
+}
+
+.driver-image img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-right: 5px;
+}
+
+.driver-info {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.driver-info h4 {
+  margin-bottom: 5px;
+}
