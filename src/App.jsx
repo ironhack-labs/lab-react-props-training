@@ -1,6 +1,8 @@
 import "./App.css";
 import IdCard from "./components/IdCard.jsx";
 import Greetings from "./components/Greetings.jsx";
+import Random from "./components/Random.jsx";
+
 
 function App() {
   return (
@@ -14,7 +16,6 @@ function App() {
         birth={new Date ("1992-07-14")}
         picture="https://randomuser.me/api/portraits/men/44.jpg"
 />
-
       <IdCard
         lastName='Delores '
         firstName='Obrien'
@@ -26,6 +27,8 @@ function App() {
        <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings>
         
+      <Random min={1} max={6}/>
+      <Random min={1} max={100}/> 
     </div>
   );
 }
