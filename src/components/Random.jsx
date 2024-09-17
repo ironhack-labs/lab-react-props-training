@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Random(props) {
-    const randomNumber= Math.floor(Math.random()* props.max - props.min +1)
+    const randomNumber= Math.floor(Math.random()* props.max - props.min +1) +props.min;
 
 
   return (

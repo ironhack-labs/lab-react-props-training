@@ -13,7 +13,7 @@ function IdCard(props) {
             <p>Last name: {props.lastName}</p>
             <p>Gender: {props.gender}</p>
             <p>Height: {props.height}</p>
-            <p>Birth: {props.Birth}</p>
+            <p>Birth: {props.birth.toDateString()}</p>
         </div>
         
    
