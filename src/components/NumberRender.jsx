@@ -1,4 +1,4 @@
-/*function NumberRender(props) {
+function NumberRender(props) {
     console.log(props)
 
     const {min, max} = props
@@ -11,4 +11,4 @@
     )
 }
 
-export default NumberRender*/
+export default NumberRender
