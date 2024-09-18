@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+
+#text {
+    line-height: 30px;
+    font-size: 15px;
+}
+
+#img {
+    width: 30%;
+    height: 10%;
+    margin-right: 20px;
+}
+
+.textH1 {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.random {
+    border: 2px solid black;
+    padding: 10px;
+}
