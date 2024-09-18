@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
 
-function IdCard() {
+function IdCard(props) {
   return (
-    <div>IdCard</div>
-  )
+    <div> 
+      <p>lastName: {props.lastName}; </p>
+      <p>firstName: {props.firstName};</p>
+      <p>gender:{props.gender};</p>
+      <p>height:{props.height};</p>
+      <p>birth:{props.birth};</p>
+    </div>
+  );
 }
 
-export default IdCard
+export default IdCard;
