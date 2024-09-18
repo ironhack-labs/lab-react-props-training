@@ -1,15 +1,15 @@
 function Rating(props) {
   let estrella
-  const value = props.children
+  const value = Math.round(props.children)
   if (value === 0) {
     estrella = '☆☆☆☆☆'
-  } else if (value <= 1.99) {
+  } else if (value <= 1) {
     estrella = '★☆☆☆☆'
-  } else if (value <= 2.99) {
+  } else if (value <= 2) {
     estrella = '★★☆☆☆'
-  } else if (value <= 3.99) {
+  } else if (value <= 3) {
     estrella = '★★★☆☆'
-  } else if (value <= 4.99) {
+  } else if (value <= 4) {
     estrella = '★★★★☆'
   } else if (value === 5) {
     estrella = '★★★★★'
@@ -17,7 +17,7 @@ function Rating(props) {
     estrella = '☆☆☆☆☆'
   }
   return (
-    <div className="estreya">
+    <div>
       <h2>{estrella}</h2>
     </div>
   )
