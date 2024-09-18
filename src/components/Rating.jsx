@@ -9,10 +9,10 @@ function Rating(props) {
         listaEstrellas.unshift('★')
     }
     return (
-        <div className="estrellas">
+        <div className="estrellas" style={{fontSize: props.size}}>
            {/* {listaEstrellas} */}
            {listaEstrellas.map((elemento, index)=>
-            <b key={index}>{elemento}</b>)}           
+            <b key={index} id="puntuacion">{elemento}</b>)}           
         </div>
     )
 }

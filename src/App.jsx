@@ -73,12 +73,12 @@ function App() {
           />
         </div>
         <hr />
-        <Rating>0</Rating>
-        <Rating>1.49</Rating>
-        <Rating>1.5</Rating>
-        <Rating>3</Rating>
-        <Rating>4</Rating>
-        <Rating>5</Rating>
+        <Rating size={"4rem"}>0</Rating>
+        <Rating size={"4rem"}>1.49</Rating>
+        <Rating size={"4rem"}>1.5</Rating>
+        <Rating size={"4rem"}>3</Rating>
+        <Rating size={"4rem"}>4</Rating>
+        <Rating size={"4rem"}>5</Rating>
         <hr />
         <DriverCard
           name="Travis Kalanick"
