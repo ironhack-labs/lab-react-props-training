@@ -1,15 +1,40 @@
 import React from "react";
 
-function IdCard(props) {
+export default function IdCard(props) {
   return (
-    <div> 
-      <p>lastName: {props.lastName}; </p>
-      <p>firstName: {props.firstName};</p>
-      <p>gender:{props.gender};</p>
-      <p>height:{props.height};</p>
-      <p>birth:{props.birth};</p>
+    <div className="tarjeta">
+
+      <div>
+        <img src={props.picture} alt="imagen" />
+      </div>
+
+      <div className="info">
+
+      <div>
+        <b>FirstName:</b> <span>{props.firstName}</span>
+      </div>
+
+      <div>
+        <b>LastName:</b> <span>{props.lastName}</span>
+      </div>
+
+      <div>
+        <b>Gender:</b>
+        <span>{props.gender}</span>
+      </div>
+
+      <div>
+        <b>Height:</b>
+        <span>{props.height}</span>
+      </div>
+
+      <div>
+        <b>Birth:</b>
+        <span>{props.birth.toLocaleDateString()}</span>
+      </div>
+
+      </div>
+
     </div>
   );
 }
-
-export default IdCard;

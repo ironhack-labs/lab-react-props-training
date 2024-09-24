@@ -1,8 +1,13 @@
 import "./App.css";
 import IdCard from "./components/IdCard.jsx";
-import Greeting from "./components/Greetings.jsx";
+import Greetings from "./components/Greetings.jsx";
+import Random from "./components/Random.jsx";
+import BoxColor from "./components/BoxColor.jsx";
+
+
 function App() {
   return (
+
     <div>
       <IdCard
         lastName="Doe"
@@ -25,9 +30,12 @@ function App() {
 <Greetings lang="de">Ludwig</Greetings>
 <Greetings lang="fr">François</Greetings>
 
+<BoxColor r={255} g={0} b={0} />
+<BoxColor r={200} g={255} b={0} />
+
+<Random min={1} max={6}/>
+<Random min={1} max={100}/>
     </div>
-
-
 
   )
 
