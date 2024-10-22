@@ -1,0 +1,21 @@
+.card {
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    margin: 12px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 32px);
+    box-sizing: border-box
+}
+
+.picture {
+    
+    width: 201px;
+    height: 201px;
+    margin-right: 16px
+}
+.info{
+    flex: 1;
+    margin: 0px;
+}
