@@ -1,0 +1,57 @@
+.id-card {
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .id-card img {
+    
+    width: 100px;
+    height: 100px;
+    margin-right: 16px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .id-card h2 {
+    margin: 0;
+    font-size: 1.5em; 
+  }
+  
+  .id-card p {
+    margin: 4px 0;
+    font-size: 1em; 
+  }
+  
+  /* Greetings.css */
+
+.greetings {
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    font-size: 1.5em;
+    background-color: #fff;
+  }
+  
+  .greetings p {
+    margin: 0;
+  }
+
+/* Random.css */
+.random {
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    font-size: 1.2em;
+    background-color: #f9f9f9;
+  }
+  
+  
