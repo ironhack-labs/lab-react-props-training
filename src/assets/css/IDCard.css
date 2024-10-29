@@ -1,0 +1,32 @@
+.id-card-container {
+  border       : 1px solid black;
+  padding      : .4rem;
+  margin-bottom: .4rem;
+  width        : 80vw;
+  height       : 20vw;
+
+  display: flex;
+}
+
+.id-card-container .image-container {
+  height: 100%;
+}
+
+.id-card-container .image-container img {
+  height: 100%;
+}
+
+.id-card-container ul.info-container {
+  list-style  : none;
+  padding     : 0;
+  margin      : 0;
+  padding-left: .4rem;
+}
+
+.id-card-container ul.info-container li p {
+  font-weight: 600;
+}
+
+.id-card-container ul.info-container li span {
+  font-weight: 400;
+}
