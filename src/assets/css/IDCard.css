@@ -1,8 +1,8 @@
 .id-card-container {
   border       : 1px solid black;
-  padding      : .4rem;
-  margin-bottom: .4rem;
-  width        : 80vw;
+  padding      : var(--space-default);
+  margin-bottom: var(--space-default);
+  width        : var(--width-app);
   height       : 20vw;
 
   display: flex;
@@ -20,7 +20,7 @@
   list-style  : none;
   padding     : 0;
   margin      : 0;
-  padding-left: .4rem;
+  padding-left: var(--space-default);
 }
 
 .id-card-container ul.info-container li p {
