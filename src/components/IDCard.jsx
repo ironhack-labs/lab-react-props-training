@@ -1,6 +1,8 @@
 import '../assets/css/IDCard.css';
 
 function IDCard({ lastName, firstName, gender, height, birth, picture }) {
+  const heightInMeters = `${Math.floor(height / 100)}.${height % 100}m`;
+
 	return (
 		<div className='id-card-container'>
 			<div className='image-container'>
@@ -24,7 +26,7 @@ function IDCard({ lastName, firstName, gender, height, birth, picture }) {
 				</li>
 				<li>
 					<p>
-						Height: <span>{height}m</span>
+						Height: <span>{heightInMeters}</span>
 					</p>
 				</li>
 				<li>

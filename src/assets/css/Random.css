@@ -1,0 +1,6 @@
+.random {
+  width        : var(--width-app);
+  border       : 1px solid black;
+  margin-bottom: var(--space-default);
+  padding      : var(--space-default);
+}

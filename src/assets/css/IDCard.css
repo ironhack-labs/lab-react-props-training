@@ -24,7 +24,8 @@
 }
 
 .id-card-container ul.info-container li p {
-  font-weight: 600;
+  font-weight: 700;
+  line-height: 1.2rem;
 }
 
 .id-card-container ul.info-container li span {
