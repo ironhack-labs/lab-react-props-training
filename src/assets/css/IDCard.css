@@ -3,7 +3,7 @@
   padding      : var(--space-default);
   margin-bottom: var(--space-default);
   width        : var(--width-app);
-  height       : 20vw;
+  height : 10rem;
 
   display: flex;
 }
