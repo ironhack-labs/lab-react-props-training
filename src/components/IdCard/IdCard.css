@@ -1,0 +1,23 @@
+.idcard {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    gap: 5px;
+
+}
+
+.picture {
+    width: 140px;
+    height: 140px;
+}
+
+p{
+    color: black;
+    margin: 0;
+}
+
+.bold{
+    color: black;
+    font-weight: 600;
+}

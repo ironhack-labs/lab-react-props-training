@@ -1,0 +1,11 @@
+.greeting {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+h2 {
+    color: black;
+    font-weight: 500;
+    margin: 0;
+}
