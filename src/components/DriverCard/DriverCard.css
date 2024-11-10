@@ -1,0 +1,33 @@
+.driver-card{
+    margin: 5px;
+    background-color: rgb(117, 117, 247);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0;
+}
+
+.name{
+    color: white;
+    font-weight: 600;
+    margin: 0;
+    font-size: 1.6rem;
+
+}
+
+.car{
+    margin: 0;
+    color: white;
+    font-weight: 400;
+}
