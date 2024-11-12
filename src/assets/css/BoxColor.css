@@ -1,0 +1,10 @@
+.box-color {
+  width        : var(--width-app);
+  border       : 1px solid black;
+  margin-bottom: var(--space-default);
+  padding      : calc(2 * var(--space-default));
+
+  display       : flex;
+  flex-direction: column;
+  align-items   : center;
+}

@@ -1,0 +1,33 @@
+.id-card-container {
+  border       : 1px solid black;
+  padding      : var(--space-default);
+  margin-bottom: var(--space-default);
+  width        : var(--width-app);
+  height : 10rem;
+
+  display: flex;
+}
+
+.id-card-container .image-container {
+  height: 100%;
+}
+
+.id-card-container .image-container img {
+  height: 100%;
+}
+
+.id-card-container ul.info-container {
+  list-style  : none;
+  padding     : 0;
+  margin      : 0;
+  padding-left: var(--space-default);
+}
+
+.id-card-container ul.info-container li p {
+  font-weight: 700;
+  line-height: 1.2rem;
+}
+
+.id-card-container ul.info-container li span {
+  font-weight: 400;
+}

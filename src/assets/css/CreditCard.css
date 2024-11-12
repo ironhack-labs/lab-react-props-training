@@ -1,0 +1,29 @@
+.credit-card {
+  width        : 100%;
+  border-radius: 5px;
+  margin-bottom: var(--space-default);
+  padding      : calc(2 * var(--space-default));
+
+  display       : flex;
+  flex-direction: column;
+  align-items   : center;
+
+}
+
+/* CARD TYPE LOGO */
+.card-type-container {
+  align-self: flex-end;
+}
+
+.card-type-container img {
+  width: 2rem;
+}
+
+/* CREDIT CARD NUMBER */
+.credit-card-number-container span {
+  font-size: 2rem;
+}
+/* CREDIT CARD INFO */
+.credit-card-info-container {
+  align-self: flex-start;
+}
