@@ -10,6 +10,20 @@
 
 }
 
+/* CARD TYPE LOGO */
+.card-type-container {
+  align-self: flex-end;
+}
+
+.card-type-container img {
+  width: 2rem;
+}
+
+/* CREDIT CARD NUMBER */
 .credit-card-number-container span {
   font-size: 2rem;
+}
+/* CREDIT CARD INFO */
+.credit-card-info-container {
+  align-self: flex-start;
 }
