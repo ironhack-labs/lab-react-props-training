@@ -1,17 +1,17 @@
-import "./App.css";
-import BoxColor from "./components/BoxColor/BoxColor";
-import CreditCard from "./components/CredirCard/CreditCard";
+import BoxColor from "./components/box-color/box-color";
+import CreditCard from "./components/credit-card/credit-card";
 import DriverCard from "./components/DriverCard/DriverCard";
-import Greetings from "./components/Greetings/Greetings";
-import IdCard from "./components/IdCard/IdCard";
+import Greetings from "./components/greetings/greetings";
+import IdCard from "./components/id-card/id-card";
 import Random from "./components/Random/Random";
 import Rating from "./components/Rating/Rating";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container py-5">
       <h1> LAB | React Training</h1>
       <IdCard
+        className='mb-2'
         lastName='Doe'
         firstName='John'
         gender='male'
@@ -29,49 +29,42 @@ function App() {
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
 
-      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings className="mb-2 mt-2" lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings>
 
-      <Random min={1} max={6}/>
+      <Random className="mb-2 mt-2" min={1} max={6}/>
       <Random min={1} max={100}/>
 
-      <BoxColor r={255} g={0} b={0} />
-      <BoxColor r={128} g={255} b={0} />
+      <BoxColor className="mb-2 mt-2"  r={255} g={0} b={0} />
+      <BoxColor className="mb-2"r={128} g={255} b={0} />
+      <BoxColor r={0} g={0} b={255} />
 
-      <div className="card-content">
-        <CreditCard
-          type="Visa"
-          number="0123456789018845"
-          expirationMonth={3}
-          expirationYear={2021}
-          bank="BNP"
-          owner="Maxence Bouret"
-          bgColor="#11aa99"
-          color="white" 
-        />
-            
-        <CreditCard
-          type="Master Card"
-          number="0123456789010995"
-          expirationMonth={3}
-          expirationYear={2021}
-          bank="N26"
-          owner="Maxence Bouret"
-          bgColor="#eeeeee"
-          color="#222222"
-        />
-            
-        <CreditCard
-          type="Visa"
-          number="0123456789016984"
-          expirationMonth={12}
-          expirationYear={2019}
-          bank="Name of the Bank"
-          owner="Firstname Lastname"
-          bgColor="#ddbb55"
-          color="white" 
-        />
-      </div>
+      <CreditCard 
+        className="mb-1"
+        card={{
+          type: "Visa",
+          number: "0123456789016984",
+          expirationMonth: 12,
+          expirationYear: 2019,
+          bank: "Name of the Bank",
+          owner: "Firstname Lastname",
+        }}
+        bgColor="#ddbb55"
+        color="white" 
+      />
+      <CreditCard
+        className="mb-1"
+        card={{
+          type: "Master Card",
+          number: "0123456789010995",
+          expirationMonth: 3,
+          expirationYear: 2021,
+          bank: "N26",
+          owner: "Maxence Bouret",
+        }}
+        bgColor="#eeeeee"
+        color="#222222"
+      />
 
       <Rating>0</Rating>
       <Rating>1.49</Rating>

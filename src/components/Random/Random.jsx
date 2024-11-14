@@ -1,13 +1,13 @@
-import "./Random.css"
+import Panel from "../ui/panel";
 
-function Random ({min, max}) {
+function Random ({min, max, className}) {
 
-    const number = Math.floor(Math.random() * (max - min + 1)) + min;
+    const number = Math.floor(Math.max(min, Math.random() * max));
 
     return (
-        <div className="number">
-            <h3>Random value between {min} and  {max} = {number}</h3>
-        </div>
+        <Panel className={className}>
+            {`Random value between ${min} and ${max} => ${number}`}
+        </Panel>
     );
 }
 

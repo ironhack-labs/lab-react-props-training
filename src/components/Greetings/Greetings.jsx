@@ -1,7 +1,7 @@
-import "./Greetings.css"
+import Panel from "../ui/panel";
 
 
-function Greetings ({lang, children}) {
+function Greetings ({className='', lang, children}) {
 
     let greet = '';
 
@@ -18,12 +18,15 @@ function Greetings ({lang, children}) {
         case 'en':
             greet = 'Hello';
             break;
+        default:
+            greet = "Hello";
+            break;
     }
 
     return (
-        <div className="greeting">
-            <h2>{greet} {children}</h2>
-        </div>
+        <Panel className={className}>
+            {greet} {children}
+        </Panel>
     )
 }
 
