@@ -23,7 +23,7 @@ function App() {
         picture="https://randomuser.me/api/portraits/men/44.jpg"
       />
 
-      <Greetings>Carlos</Greetings>
+      <Greetings className="mb-1">Carlos</Greetings>
       <Greetings lang="fr">Juli</Greetings>
     </div>
   );
