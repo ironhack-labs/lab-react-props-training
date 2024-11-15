@@ -1,6 +1,5 @@
-import "./Rating.css"
 
-function Rating ({children, className}) {
+function Rating ({children, className = ''}) {
 
     const formattedRating = Math.round(children);
 
@@ -8,15 +7,15 @@ function Rating ({children, className}) {
 
     for (let i = 0; i < 5; i++){
         if ( i < formattedRating) {
-            rating.push("★");
+            rating.push("&#9733;");
         } else {
-            rating.push("☆");
+            rating.push("&#9734;");
         }
     }
 
     return (
-        <div className={`rating${className}`}> 
-          <p>{rating.join("")}</p>
+        <div className={`${className}`} style={{ margin: 0, padding: 0 }}> 
+          <span dangerouslySetInnerHTML={{__html: rating.join("")}} />
         </div>
       );
 }

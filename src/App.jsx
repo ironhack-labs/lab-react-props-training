@@ -1,10 +1,10 @@
 import BoxColor from "./components/box-color/box-color";
 import CreditCard from "./components/credit-card/credit-card";
-import DriverCard from "./components/DriverCard/DriverCard";
+import DriverCard from "./components/driver-card/driver-card";
 import Greetings from "./components/greetings/greetings";
 import IdCard from "./components/id-card/id-card";
 import Random from "./components/Random/Random";
-import Rating from "./components/Rating/Rating";
+import Rating from "./components/rating/rating";
 
 function App() {
   return (
@@ -39,41 +39,58 @@ function App() {
       <BoxColor className="mb-2"r={128} g={255} b={0} />
       <BoxColor r={0} g={0} b={255} />
 
-      <CreditCard 
-        className="mb-1"
-        card={{
-          type: "Visa",
-          number: "0123456789016984",
-          expirationMonth: 12,
-          expirationYear: 2019,
-          bank: "Name of the Bank",
-          owner: "Firstname Lastname",
-        }}
-        bgColor="#ddbb55"
-        color="white" 
-      />
-      <CreditCard
-        className="mb-1"
-        card={{
-          type: "Master Card",
-          number: "0123456789010995",
-          expirationMonth: 3,
-          expirationYear: 2021,
-          bank: "N26",
-          owner: "Maxence Bouret",
-        }}
-        bgColor="#eeeeee"
-        color="#222222"
-      />
+      <div className="d-flex flex-warp gap-2 mt-2">
+        <CreditCard
+          className="mb-1 mr-1"
+          card={{
+            type: "Master Card",
+            number: "0123456789010995",
+            expirationMonth: 3,
+            expirationYear: 2021,
+            bank: "BNP",
+            owner: "Maxence Bouret",
+          }}
+          bgColor="#11aa99"
+          color="white"
+        />
+        <CreditCard
+          className="mb-1"
+          card={{
+            type: "Master Card",
+            number: "0123456789010995",
+            expirationMonth: 3,
+            expirationYear: 2021,
+            bank: "N26",
+            owner: "Maxence Bouret",
+          }}
+          bgColor="#eeeeee"
+          color="#222222"
+        />
 
-      <Rating>0</Rating>
-      <Rating>1.49</Rating>
-      <Rating>1.5</Rating>
-      <Rating>3</Rating>
-      <Rating>4</Rating>
-      <Rating>5</Rating>
+        <CreditCard 
+          className="mb-1"
+          card={{
+            type: "Visa",
+            number: "0123456789016984",
+            expirationMonth: 12,
+            expirationYear: 2019,
+            bank: "Name of the Bank",
+            owner: "Firstname Lastname",
+          }}
+          bgColor="#ddbb55"
+          color="white" 
+        />
+      </div>
+
+      <Rating className="fs-1">0</Rating>
+      <Rating className="fs-1">1.49</Rating>
+      <Rating className="fs-1">1.5</Rating>
+      <Rating className="fs-1">3</Rating>
+      <Rating className="fs-1">4</Rating>
+      <Rating className="fs-1">5</Rating>
 
       <DriverCard
+        className="mb-2"
         name="Travis Kalanick"
         rating={4.2}
         img="https://si.wsj.net/public/resources/images/BN-TY647_37gql_OR_20170621052140.jpg?width=620&height=428"
