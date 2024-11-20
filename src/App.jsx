@@ -3,6 +3,7 @@ import CreditCard from "./components/credit-card/credit-card";
 import Greetings from "./components/greetings/greetings";
 import IdCard from "./components/id-card/idCard";
 import Random from "./components/random/random";
+import Rating from "./components/rating/rating";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
       <BoxColor className="mb-2" r={250} g={0} b={0} />
       <BoxColor className="mb-2" r={0} g={250} b={0} />
       <BoxColor className="mb-2" r={0} g={0} b={255} />
-      <CreditCard 
+      <CreditCard
         className="mb-1"
         card={{
           type: "Visa",
@@ -36,7 +37,7 @@ function App() {
           owner: "Firstname Lastname",
         }}
         bgColor="#ddbb55"
-        color="white" 
+        color="white"
       />
       <CreditCard
         className="mb-1"
@@ -51,6 +52,12 @@ function App() {
         bgColor="#eeeeee"
         color="#222222"
       />
+      <Rating>0</Rating>
+      <Rating>1.49</Rating>
+      <Rating>1.5</Rating>
+      <Rating>3</Rating>
+      <Rating>4</Rating>
+      <Rating>5</Rating>
     </div>
 
   );
