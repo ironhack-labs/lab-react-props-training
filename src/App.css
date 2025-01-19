@@ -1,0 +1,25 @@
+.IdCard {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.IdCard img {
+  margin-right: 20px;
+}
+
+.greeting {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 23px;
+}
+
+.randomNum {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 23px;
+}
