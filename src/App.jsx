@@ -2,7 +2,7 @@ import "./App.css";
 import IdCard from "./components/IdCard";
 import Greetings from "./components/Greetings";
 import BoxColor from "./components/BoxColor";
-
+import Random from "./components/Random";
 function App() {
   return (
     <>
@@ -21,6 +21,9 @@ function App() {
       </div>
       <div>
         <BoxColor r={255} g={0} b={0} />
+      </div>
+      <div>
+        <Random min={1} max={6} />
       </div>
     </>
   );
