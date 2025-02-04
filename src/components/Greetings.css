@@ -1,0 +1,11 @@
+.greetings {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+   
+   border: 1px solid #232323;
+    border-radius: 5px;
+    max-width: 600px;
+padding: 16px;
+    margin: 16px;
+}

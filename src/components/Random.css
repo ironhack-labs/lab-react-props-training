@@ -1,0 +1,9 @@
+ .random {
+ border: 1px solid #232323;
+ border-radius: 8px;
+ padding: 16px;
+ margin: 16px;
+ display: flex;
+ gap: 16px;
+ max-width: 600px;
+ }

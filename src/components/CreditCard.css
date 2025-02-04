@@ -1,0 +1,59 @@
+.credit-card {
+    width: 380px;
+    height: 220px;
+    padding: 20px;
+    border-radius: 12px;
+    position: relative;
+    font-family: system-ui, -apple-system, sans-serif;
+    margin: 16px;
+}
+
+.credit-card-type {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.credit-card-number {
+    margin-top: 60px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.credit-card-number::before {
+    content: "•••• •••• •••• ••••";
+    margin-right: 8px;
+    letter-spacing: 2px;
+}
+
+.credit-card-bank {
+    margin-top: 6px;
+    font-size: 18px;
+}
+.credit-card-expiration {
+    margin-top: 46px;
+    font-size: 16px;
+}
+
+.credit-card-owner {
+    margin-top: 6px;
+    font-size: 20px;
+    
+}
+
+.theme-green {
+    background-color: #40B3A2;
+    color: white;
+}
+
+.theme-gray {
+    background-color: #F5F5F5;
+    color: black;
+}
+
+.theme-gold {
+    background-color: #D4AF37;
+    color: white;
+}
