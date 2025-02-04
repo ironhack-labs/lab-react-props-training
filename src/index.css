@@ -9,5 +9,85 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+.container{
+  display: flex;
+  margin: 0.5rem;
+  width: auto;
+  height: 10%;
+  border: 1px solid black;
+  padding-left: 300px;
+}
+.img{
+  position: absolute;
+width: 200px;
+height: 200px;
+border: 1px solid black;
+right: 85%;
+}
+
+.img-cont{
+  left: 100px;
+
+}
+
+.text-cont{
+  left: 10px;
+}
+.random{
+  margin: 0.5rem;
+  border: 1px solid black;
+}
+
+.card-container {
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  gap: 20px; 
+  padding: 20px; 
+}
+
+.body-card {
+  margin: 0.5rem;
+  width: 250px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(77 167 153);
+  border-radius: 10px;
+}
+
+.credit-card { 
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.2s ease; 
+  text-justify: auto;
+}
+
+
+.credit-card:hover {
+  transform: scale(1.05);
+}
+.credit-card p{
+  font-family: 'Courier New', Courier, monospace;
+  display: list-item;
+
+}
+.credit-card{
+  display: flex;
+  flex-direction: row;
+}
+
+.visa{
+  background-color: rgb(216 187 101)
+}
+.mastercard{
+  background-color: rgb(238 238 238);
+}
+h4{
+    text-align: center;
+    margin: -13px;
+    font-size: 30px;
+
 }
