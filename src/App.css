@@ -1,0 +1,75 @@
+.img{
+   display: flex;
+   border: 2px solid;
+   border-radius: 5px;
+   margin: 5px;
+   top: 10%;
+   width:80%;
+}
+.info{
+    font-size: 20px;
+}
+
+.greet{
+    display: flex;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 5px;
+    width:80%;
+    font-size: 30px;
+}
+
+.number{
+border: 2px solid;
+border-radius: 5px;
+margin: 5px;
+width:80%;
+font-size: 30px;
+}
+
+.box{
+    width:80%;
+    font-size: 20px;
+    margin:5px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    
+}
+.credit-card {
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    padding: 20px;
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  font-family: Arial, sans-serif;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-logo {
+    width: 60px;
+  position:relative;
+  left:250px; 
+ 
+  }
+  .card-number {
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color:black;
+  }
+
+.card-expire {
+    font-size: 14px;
+    color:black;
+  }
+  .card-owner {
+    font-size: 14px;
+    font-weight: bold;
+    color:black
+  }
