@@ -1,0 +1,40 @@
+.id-card{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.id-card img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+  }
+
+.id-card details{
+    display: flex
+}
+
+.id-card p {
+    margin: 5px 0
+}
+  .id-card p strong{
+    font-weight: bold;
+  }
+
+.greeting{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.random-number{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+}
