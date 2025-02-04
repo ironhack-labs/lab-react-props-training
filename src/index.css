@@ -5,9 +5,82 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card{
+  margin-bottom: 10px;
+}
+
+.credit-card{
+  width: 400px;
+  height: 200px; 
+  position: relative;
+  border-radius: 10px;
+  display:inline-flex;
+  justify-content: space-evenly;
+  margin: 0 20px 20px 0;
+}
+
+.visa{
+  position: absolute;
+  width: 50px;
+  top: 20px;
+  right:20px
+}
+
+.mastercard{
+  position: absolute;
+  width: 50px;
+  top: 20px;
+  right:20px;
+}
+
+.card-number{
+  position: absolute;
+  font-size: 2.2rem;
+  left:45px ;
+  top: 40%;
+}
+
+.expiry-date{
+  position: absolute;
+  display: flex;
+  top:70%;
+  left: 30px;
+  font-size: 13px;
+}
+
+.bank-name{
+  padding-left: 30px;
+}
+
+.owner-name{
+  position: absolute;
+  top:80%;
+  left: 30px;
+  font-size: 13px;
+}
+
+.driver-image img{
+  width: 200px;
+  border-radius:100px;
+  margin-right: 10px;
+}
+
+.driver-card{
+  color: white;
+  background-color: cadetblue;
+  padding: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 50px;
+
 }
