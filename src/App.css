@@ -1,0 +1,71 @@
+
+div,p,h1{
+    margin:0;
+    padding: 0;
+}
+.idCard{
+    border: 3px solid black;
+    display: flex;
+    width: 60vw;
+}
+.idCard img{
+    width: 40%;
+}
+
+.creditCard{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    padding:20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* border: 3px black solid; */
+    
+}
+
+.creditCard img{
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px
+}
+
+.creditCard p, h1{
+    align-self: flex-start;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.driverCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    border-radius: 10px;
+    background-color: #455eb5;
+    color: white;
+    border: 1px solid black;
+}
+.driverCard .rating {
+    /* border: 3px solid; */
+    font-size: 60px;
+    
+}
+.img{
+    width: 50%;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: flex-end;
+}
+.content{
+    width:50%
+}
+
+.img img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
