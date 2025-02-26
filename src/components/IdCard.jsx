@@ -7,7 +7,7 @@ function IdCard({ lastName, firstName, gender, height, birth, picture }) {
                 <p>Last Name: {lastName}</p>
                 <p>Gender: {gender}</p>
                 <p>Height: {height} cm</p>
-                <p>Birth: { }</p>
+                <p>Birth: {birth.toDateString()}</p>
             </div>
         </div>
     );
