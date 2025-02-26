@@ -1,4 +1,4 @@
-function IdCard({ lastName, firstName, gender, height, birth, picture }) {
+function IdCard() {
     return (
         <div className="id-card">
             <img src={picture} alt={`${firstName} ${lastName}`} />
