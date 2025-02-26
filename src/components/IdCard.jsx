@@ -1,15 +1,13 @@
-import React from "react";
-
 function IdCard({ lastName, firstName, gender, height, birth, picture }) {
     return (
         <div className="id-card">
             <img src={picture} alt={`${firstName} ${lastName}`} />
             <div>
-                <p><strong>First Name:</strong> {firstName}</p>
-                <p><strong>Last Name:</strong> {lastName}</p>
-                <p><strong>Gender:</strong> {gender}</p>
-                <p><strong>Height:</strong> {height} cm</p>
-                <p><strong>Birth:</strong> {birth.toDateString()}</p>
+                <p>First Name: {firstName}</p>
+                <p>Last Name: {lastName}</p>
+                <p>Gender: {gender}</p>
+                <p>Height: {height} cm</p>
+                <p>Birth: { }</p>
             </div>
         </div>
     );

@@ -4,6 +4,7 @@ function App() {
   return (
     <div className="App">
       <h1> LAB | React Training</h1>
+
       <IdCard
         lastName='Doe'
         firstName='John'
