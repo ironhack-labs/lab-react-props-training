@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p{
+  margin: 0;
+}
+
+.block{
+  border: 1px solid black;
+  display: flex;
+  width: 50%;
+  padding: 2px;
+  padding-bottom: 0;
+  margin: 5px;
+}
+
+.infos{
+  display: flex;
+  flex-direction: column;
+}
+
+.greeting p{
+  width: 50%;
+  border: 1px solid black;
+  display: flex;
+  padding: 2px;
+  margin: 5px;
+}
+
+.outerCard{
+  width: 30%;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logoBank{
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: end;
+}
+
+.logoBank img{
+  width: 15%;
+}
+
+.cardInfo{
+  display: flex;
+}
+
+.bank{
+  padding-left: 10px;
+}
+
+.rating{
+  display: flex;
+}
+
+.outer-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 20px;
+  color: white;
+}
+
+.outer-card h1,h2{
+  margin: 0;
+}
+
+.driverPic{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding-right: 1rem;
+}
