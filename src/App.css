@@ -1,0 +1,37 @@
+h1 {
+  padding-bottom: 20px;
+}
+
+.App {
+  padding: 10px;
+}
+
+.id-card {
+  display: flex;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.profile-information {
+  font-size: 0.8rem;
+  padding-left: 5px;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.box-color p {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.credit-card {
+  width: 200px;
+}
+
+.card-type img {
+  height: 20px;
+}
