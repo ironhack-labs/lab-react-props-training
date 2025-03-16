@@ -28,10 +28,96 @@ h1 {
   padding-bottom: 5px;
 }
 
+.credit-card-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .credit-card {
-  width: 200px;
+  width: 150px;
+  height: 80px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.card-type {
+  position: absolute;
+  top: 1px;
+  right: 10px;
 }
 
 .card-type img {
+  height: 10px;
+}
+
+.card-number {
+  position: absolute;
+  top: 25px;
+  left: 13px;
+}
+
+.card-daten {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  font-size: 0.5rem;
+}
+
+.card-daten p span {
+  margin-left: 8px;
+}
+
+.rating {
+  display: flex;
+  font-size: 3rem;
+}
+
+.driver-card {
+  width: 450px;
+  height: 120px;
+  margin-top: 20px;
+  background-color: #455eb5;
+  border-radius: 5px;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+}
+
+.driver-daten {
+  width: 250px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile-img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.driver-rating .rating {
+  font-size: 1.2rem;
   height: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 3px;
+}
+
+.driver-information {
+  padding-left: 10px;
+}
+
+.driver-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.car-daten {
+  font-size: 0.5rem;
 }
