@@ -37,3 +37,9 @@ h1 {
 .id-text>p {
   margin: 0;
 }
+
+.greetings-container {
+  border: 2px solid black;
+  margin: 10px;
+  padding: 5px;
+}

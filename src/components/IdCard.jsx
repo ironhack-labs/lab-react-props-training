@@ -15,7 +15,8 @@ function IdCard(props) {
           <b>height:</b> {props.height}
         </p>
         <p>
-          <b>birth:</b> {props.birth}
+          <b>birth:</b> {props.birth.toString().split(' ')[0]} {props.birth.toString().split(' ')[1].split(' ')[0]}{' '}
+          {props.birth.getDate()} {props.birth.getFullYear()}
         </p>
       </div>
       <img src={props.picture} alt={`picture of ${props.firstName} ${props.lastName}`} />
