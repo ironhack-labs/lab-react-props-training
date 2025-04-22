@@ -1,0 +1,32 @@
+.idCard {
+    border: 1px solid black;
+    padding: 3px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    gap: 10px;
+}
+
+.greets , .random{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+}
+
+.greets p , .random p {
+    margin: 0;
+    padding: 5px 5px;
+}
+
+.box {
+    height: 90px;
+    border: 1px solid black;
+    padding: 5px 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    margin-bottom: 10px;
+}
