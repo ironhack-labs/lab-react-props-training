@@ -1,0 +1,5 @@
+.random {
+    display: flex;
+    border: 1px solid black;
+    gap: 5px;
+}
