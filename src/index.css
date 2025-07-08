@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card{
+  display: flex;
+  border: 2px solid black;
+  padding: 16px;
+  margin: 16px;
+}
+
+.image{
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin-right: 10px;
+}
+
+.info h1{
+  font-size: 25px;
+  margin: 10px 0;  
+}
+
+.data{
+  font-weight: normal;
+}
+
+.greetings{
+  border: 2px solid black;
+  padding: 16px;
+  margin: 16px;
+}
+
+.text{
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.random{
+  border: 2px solid black;
+  padding: 16px;
+  margin: 16px;
+  font-size: 25px;
+}
