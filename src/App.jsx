@@ -1,5 +1,7 @@
 import IdCard from "./components/IdCard";
-
+import Greetings from "./components/Greetings";
+import Random  from "./components/Random";
+import BoxColor from "./components/BoxColor";
 import "./App.css";
 
 function App() {
@@ -36,7 +38,25 @@ function App() {
           />
         ))}
       </div>
+
+      <Greetings lang="de">Wolfgang</Greetings>
+      <Greetings lang="fr">François</Greetings>
+      <Greetings lang="es">Domingo</Greetings>
+      <Greetings lang="en">Michael</Greetings>  
+      
+     <Random min={1} max={100} />
+     <Random min={1} max={100} />
+
+     <BoxColor r={215} g={32} b={129}/>
+     <BoxColor r={24} g={196} b={179} />
+
+
+
     </section>
+
+
+
+
   );
 }
 
