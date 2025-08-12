@@ -1,13 +1,131 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.container {
+  margin: 10px;
+  padding: 5px;
+  border: solid 2px black;
+}
+
+.profile {
+  display: flex;
+  gap: 5px;
+
+  .personal-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    p {
+      margin: 0;
+    }
+    .categories {
+      font-weight: bold;
+    }
+  }
+}
+
+.greeting {
+  font-size: 1.5em;
+}
+
+.random {
+  font-size: 1.5em;
+}
+
+.box-color {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 0.2em;
+  padding: 20px;
+}
+
+#wallet {
+  display: flex;
+  justify-content: space-evenly;
+
+  .credit-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 12px;
+    width: 400px;
+    height: 220px;
+    box-sizing: border-box;
+    padding: 20px;
+
+    img {
+      height: 22px;
+      align-self: flex-end;
+    }
+
+    .card-number {
+      align-self: center;
+      font-weight: 400;
+      font-size: 2em;
+      letter-spacing: 4px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .card-info {
+      .bank {
+        padding-left: 10px;
+      }
+    }
+  }
+}
+
+.rating-container {
+  font-size: 3em;
+}
+
+.driver-container {
+  background-color: #455eb5;
+  margin: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 32px 32px 32px 400px;
+
+  img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+  }
+
+  .driver-info {
+    color: white;
+
+    .rating-container {
+      font-size: 3.2em;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .driver-name {
+      font-size: 2.6em;
+      font-weight: 600;
+    }
+
+    .car-info {
+      font-size: 1.5em;
+    }
+  }
 }
