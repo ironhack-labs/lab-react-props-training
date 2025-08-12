@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  width: 800px;
+  padding: 0.5rem;
+  height: fit-content;
+  border: 1px black solid;
+  margin: 0.5rem;
+}
+
+.card img {
+  width: 150px;
+}
+
+.card-text {
+  line-height: 0.5;
+  margin-left: 0.5rem;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.color-card {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+}
+
+.credit-card {
+  border-radius: 10px;
+  border: 1px black solid;
+  width: 400px;
+  height: 200px;
+}
