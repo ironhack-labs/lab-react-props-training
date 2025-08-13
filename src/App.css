@@ -74,3 +74,67 @@
   box-sizing: border-box;
   /* border: 1px black solid; */
 }
+
+.stars {
+  display: flex;
+  align-items: flex-start;
+  font-size: 4rem;
+  line-height: 0.9;
+  margin: 0;
+  padding: 0;
+  /* border: 1px black solid; */
+}
+
+.driver-card {
+  display: flex;
+  background-color: #455eb5;
+  width: 800px;
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: 1px black solid;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.driver-card-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+  margin: 0;
+  /* border: 1px black solid; */
+}
+
+.driver-card-info img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.driver-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.1rem;
+  /* border: 1px black solid; */
+}
+
+.driver-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  /* border: 1px black solid; */
+}
+
+.driver-rating .stars {
+  font-size: 2rem;
+  margin-bottom: 3px;
+  /* border: 1px black solid; */
+}
+
+.driver-car {
+  /* border: 1px black solid; */
+}
