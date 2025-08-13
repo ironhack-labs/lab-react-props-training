@@ -1,6 +1,6 @@
-function Greetings(props) {
+function Greetings({lang, children}) {
   let greet;
-  switch (props.lang) {
+  switch (lang) {
     case "de":
       greet = "Hallo";
       break;
@@ -14,7 +14,7 @@ function Greetings(props) {
       greet = "Hello";
   }
   return (
-    <div className="container greeting">{greet} {props.children}</div>
+    <div className="container greeting">{greet} {children}</div>
   )
 }
 export default Greetings;
