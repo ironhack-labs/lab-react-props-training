@@ -1,0 +1,140 @@
+.card {
+  display: flex;
+  width: 800px;
+  padding: 0.5rem;
+  height: fit-content;
+  border: 1px black solid;
+  margin: 0.5rem;
+}
+
+.card img {
+  width: 150px;
+}
+
+.card-text {
+  line-height: 0.5;
+  margin-left: 0.5rem;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+#credit-cards {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px black solid; */
+}
+
+.color-card {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+}
+
+.credit-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 400px;
+  border: 1px black solid;
+  height: 220px;
+  padding: 1.3rem;
+  font-size: 1.3rem;
+  margin: 1rem;
+}
+
+.card-number {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+  /* border: 1px black solid; */
+}
+
+.card-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0;
+  height: 2rem;
+  align-items: center;
+  box-sizing: border-box;
+  /* border: 1px black solid; */
+}
+.card-row p {
+  /* border: 1px black solid; */
+}
+
+.card-owner {
+  margin-top: 0;
+  padding: 0 1px;
+  box-sizing: border-box;
+  /* border: 1px black solid; */
+}
+
+.stars {
+  display: flex;
+  align-items: flex-start;
+  font-size: 4rem;
+  line-height: 0.9;
+  margin: 0;
+  padding: 0;
+  /* border: 1px black solid; */
+}
+
+.driver-card {
+  display: flex;
+  background-color: #455eb5;
+  width: 800px;
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: 1px black solid;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.driver-card-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+  margin: 0;
+  /* border: 1px black solid; */
+}
+
+.driver-card-info img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.driver-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.1rem;
+  /* border: 1px black solid; */
+}
+
+.driver-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  /* border: 1px black solid; */
+}
+
+.driver-rating .stars {
+  font-size: 2rem;
+  margin-bottom: 3px;
+  /* border: 1px black solid; */
+}
+
+.driver-car {
+  /* border: 1px black solid; */
+}
