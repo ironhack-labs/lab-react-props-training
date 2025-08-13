@@ -35,7 +35,8 @@ function App() {
 
       <BoxColor r={255} g={0} b={0} color="white"/>
       <BoxColor r={128} g={255} b={0} color="black"/>
-
+      
+      <div id="credit-cards">
       <CreditCard
         type="Visa"
         number="0123456789018845"
@@ -68,6 +69,8 @@ function App() {
         bgColor="#ddbb55"
         color="white" 
       />
+
+      </div>
     </div>
   );
 }
