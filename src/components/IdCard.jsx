@@ -10,11 +10,9 @@ function IdCard ({ lastName, firstName, gender, height, birth, picture}) {
                     <p className="mb-0"><strong>Last name:</strong> { lastName }</p>
                     <p className="mb-0"><strong>Gender:</strong> { gender }</p>
                     <p className="mb-0"><strong>Height:</strong> { (height / 100).toFixed(2) }m</p>
-                    <p className="mb-0"><strong>Birth:</strong> { birth.toLocaleDateString() }</p>
-                    
+                    <p className="mb-0"><strong>Birth:</strong> { birth.toLocaleDateString() }</p>    
                 </div>
             </div>
-            
         </div>
     );
 }
