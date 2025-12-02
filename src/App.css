@@ -1,0 +1,25 @@
+.credit-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.credit-card .type {
+    text-align: right;
+    font-weight: bold;
+}
+
+.credit-card .number {
+    font-size: 12px;
+    margin: 15px o;
+}
+
+.credit-card .info {
+    font-size: 14px;
+}
+
+.credit-card .owner {
+    margin-top: 5px;
+}
