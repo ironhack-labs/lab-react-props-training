@@ -6,7 +6,7 @@ function getRandomArbitrary(min, max) {
 function Random ({ min, max }) {
     return (
         <div className="d-flex p-2 border border-dark my-2 mx-2">
-            Random value between { min } and { max } => {getRandomArbitrary(min, max).toFixed(0)}
+            {`Random value between ${ min } and ${ max } => ${getRandomArbitrary(min, max).toFixed(0)}`}
         </div>
     );
 }
