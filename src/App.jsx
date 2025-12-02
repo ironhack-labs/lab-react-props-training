@@ -4,6 +4,7 @@ import IdCard from "./components/id-card";
 import Greetings from "./components/greetings";
 import Random from "./components/random";
 import CreditCard from "./components/credit-card";
+import Rating from "./components/rating";
 
 function App() {
   return (
@@ -44,7 +45,7 @@ function App() {
         bgColor="#11aa99"
         color="white" 
       />
-                
+
       <CreditCard
         type="Master Card"
         number="0123456789010995"
@@ -66,6 +67,13 @@ function App() {
         bgColor="#ddbb55"
         color="white" 
       />
+
+      <Rating>0</Rating>
+      <Rating>1.49</Rating>
+      <Rating>1.5</Rating>
+      <Rating>3</Rating>
+      <Rating>4</Rating>
+      <Rating>5</Rating>
 
     </div>
   );
