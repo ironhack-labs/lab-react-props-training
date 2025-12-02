@@ -1,0 +1,52 @@
+.id-card {
+  border: 2px solid #181515;
+  padding: 15px;
+  margin: 20px auto;         
+  max-width: 95%;           
+  width: 100%;               
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  background: #fafafa;       
+}
+
+.id-card img {
+  width: 120px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.id-info{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.greetings {
+  border: 1px solid #ccc;
+  padding: 12px 18px;
+  margin: 10px 10px;
+  border-radius: 6px;
+  background: #f9f9f9;
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: fit-content;
+}
+
+.greetings p {
+  margin: 0;
+  color: #333;
+}
+.random {
+  border: 1px solid #ccc;
+  padding: 12px 18px;
+  margin: 10px 0;
+  border-radius: 6px;
+  background: #f3f3f3;
+  font-family: Arial, Helvetica, sans-serif;
+  width: fit-content;
+}
+
+.random p {
+  margin: 0;
+  font-size: 1.1rem;
+}
