@@ -1,0 +1,20 @@
+.id-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid #ccc;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  background: white;
+  max-width: 450px;
+}
+
+.id-card img {
+  width: 120px;
+  border-radius: 8px;
+}
+
+.id-info p {
+  margin: 5px 0;
+}
