@@ -1,0 +1,41 @@
+.IdCard {
+  border: 2px solid #181515;
+  padding: 15px;
+
+  margin: 20px auto;          /* ← centra la tarjeta */
+  max-width: 95%;           /* ← límite de ancho como en el LAB */
+  width: 100%;                /* ← permite que se adapte */
+
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+
+  background: #fafafa;        /* ← tono claro igual al ejemplo */
+}
+
+
+.IdCard img {
+  width: 120px;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+.IdCard .info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.greetings {
+  border: 1px solid #000;      /* borde negro como en el ejemplo */
+  padding: 12px;               /* espacio interno */
+  margin: 15px auto;           /* separa los bloques y los centra */
+  
+  background-color: #fafafa;   /* gris muy claro */
+  width: 100%;                 /* ocupa todo el ancho disponible */
+  max-width: 95%;            /* límite para que no se estire demasiado */
+  
+  border-radius: 4px;          /* borde suavizado */
+  font-size: 16px;
+}
