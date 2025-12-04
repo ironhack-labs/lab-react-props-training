@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 24px 12px 48px;
+  background: #f5f6f7;
+}
+
+.credit-card-list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.driver-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: min(100%, 1000px);
+  margin: 0 auto;
+}
+
+.credit-card {
+  width: 320px;
+  padding: 18px 22px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.credit-card__header {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.credit-card__number {
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+.credit-card__footer {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 15px;
+}
+
+.credit-card__expires {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-weight: 600;
+}
+
+.credit-card__bank {
+  font-weight: 700;
+}
+
+.driver-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 14px 18px;
+  border-radius: 14px;
+  background: #445ebf;
+  color: #fff;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.driver-card__avatar {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.driver-card__info h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.driver-card__rating {
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin: 6px 0;
+}
+
+.driver-card__car {
+  font-size: 17px;
+}
