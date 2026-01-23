@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.idCard {
+  display: flex;
+  font-size: 0.75rem;
+  width: 30rem;
+  height: 8rem;
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 0.3rem;
+  align-items: center;
+
+}
+
+.profileText {
+  margin-left: 1rem;
+  font-style:italic
+}
