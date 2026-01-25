@@ -1,0 +1,105 @@
+.IdCard{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: left;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+
+.IdCardInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.IdCardInfo p{
+    margin: 0%;
+}
+
+.greetings{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: left;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.randomDiv{
+    margin-top: 50px;
+}
+
+.random{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: left;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 15px;
+    
+}
+
+.boxColorDiv{
+    margin-top: 50px;
+}
+
+
+
+/* Credit card styles */
+.creditCard {
+    border-radius: 10px;
+    width: 300px;
+    height: 180px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    position: relative;
+}
+
+.creditCard p {
+    margin: 0;
+}
+
+.creditCardOne, .creditCardTwo, .creditCardThree {
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    top: 1000px; /* Adjust as necessary */
+}
+
+.creditCardOne {
+    left: 5vw;
+}
+
+.creditCardTwo {
+    left: 35vw;
+}
+
+.creditCardThree {
+    left: 65vw;
+}
+
+/* Dynamically set background color and text color */
+.creditCard {
+    background-color: var(--bgColor);
+    color: var(--color);
+}
+
+.type{
+    text-align: end;
+}
+
+.hidedNumber{
+    text-align: end;
+    font-size: 37.5px;
+}
