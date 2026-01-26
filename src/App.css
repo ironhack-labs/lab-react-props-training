@@ -1,0 +1,38 @@
+/*Iteration 1*/
+:root {
+    margin: 10px;
+}
+.cards {
+    border: 2px solid black;
+    padding: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.cards-all{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.cards-all p {
+    margin: 0;
+}
+
+/*Iteration 2*/
+
+.all-greetings {
+    border: 2px solid black;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+/*Iteration 2*/
+
+.random {
+    border: 2px solid black;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
