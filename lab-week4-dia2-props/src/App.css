@@ -1,0 +1,43 @@
+.card {
+  display: flex;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 10px 5px;
+}
+
+#credit-cards{
+  display: flex;
+}
+
+.card li{
+  list-style: none;
+}
+
+.creditCard{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  width: 400px;  
+  margin: 0px 20px;
+  padding: 20px;
+}
+
+.creditCard img{
+  width: 40px;
+  align-self: flex-end;
+}
+
+.creditCard p, div{
+  align-self: flex-start;
+}
+
+#exp-bank{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;    
+}
