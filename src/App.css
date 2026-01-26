@@ -1,0 +1,59 @@
+.id-card {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.id-card span {
+    font-weight: bold;
+}
+
+.general-div {
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin: 10px;
+}
+
+.box-color {
+    min-height: 5rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.credit-card {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    text-align: end;
+    max-width: 50%;
+    border-radius: 15px;
+    /*border: 1px solid black;*/
+    margin: 5px;
+}
+
+.credit-card-logo {
+    max-width: 20%;
+}
+
+.credit-card-nr {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.credit-card-info {
+    text-align: start;
+}
+
+.credit-card-info span {
+    margin-left: 2rem;
+}
+
