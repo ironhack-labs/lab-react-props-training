@@ -1,0 +1,12 @@
+#id-card-container {
+    display: flex;
+    flex-direction: row-reverse;
+    border: solid;
+    width: 300px;
+    justify-content: space-around;
+    
+}
+
+#data {
+    text-align: left;
+}
