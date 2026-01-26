@@ -1,13 +1,118 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  padding: 30px;
+}
+
+.Card {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.Card img {
+  width: 200px;
+}
+
+.Box {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.BoxColor {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.Vstack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ExpirationBank {
+  display: flex;
+  gap: 10px;
+}
+
+.CreditCard {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  display: inline-block;
+}
+.Logo {
+  text-align: right;
+}
+
+.Number {
+  text-align: center;
+  font-size: xx-large;
+  margin: 20px 0;
+}
+
+.EndSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+  align-self: flex-end;
+}
+
+.EndSection p {
+  margin: 1px;
+}
+
+.DriverCar {
+  display: flex;
+  margin: 0 auto;
+  background-color: #425cbb;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  gap: 10px;
+  padding: 15px;
+}
+
+.Avatar {
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.Data {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.Data > * {
+  margin: 5px;
+}
+
+.BankLogo {
+  height: 20px;
+}
+
+.Rating {
+  font-size: xx-large;
 }
