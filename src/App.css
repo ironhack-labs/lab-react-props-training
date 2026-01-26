@@ -1,0 +1,32 @@
+.idFormat {
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.idFormat img {
+    width: 20%;
+    height: 20%;
+    max-width: 100%;
+    margin: 5px
+
+}
+
+.idFormat li {
+    list-style: none;
+    margin-top: 5px;
+
+
+}
+
+.idFormat ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.greeting {
+    margin: 5px;
+    border: 1px solid black;
+}
