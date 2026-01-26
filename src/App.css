@@ -1,0 +1,14 @@
+.tarjeta {
+    margin: 5px;
+    padding: 5px;
+    width: 500px;
+    height: 30%;
+    border: 1px solid black;
+    display: flex;
+    
+}
+
+.info{
+    margin-left: 6px;
+    margin-top: 6px;
+}
