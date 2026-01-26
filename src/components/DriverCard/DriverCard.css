@@ -1,0 +1,21 @@
+.DriverCard {
+  height: 100px;
+  border: solid 1px blue;
+  border-radius: 8px;
+  display: flex;
+  background-color: blue;
+  margin: 5px 0;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 5px;
+}
+.imgDriver {
+  border-radius: 50%;
+  height: 60px;
+}
+.divDriver {
+}
+p {
+  margin: 3px;
+}

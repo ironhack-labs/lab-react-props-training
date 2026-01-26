@@ -1,0 +1,8 @@
+.IdCardContainer {
+  display: flex;
+  gap: 10px;
+  border: solid 1px grey;
+}
+span {
+  font-weight: bolder;
+}

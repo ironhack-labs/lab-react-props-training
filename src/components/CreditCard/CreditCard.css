@@ -1,0 +1,21 @@
+.CreditCard {
+  border: solid 1px black;
+  padding: 2rem;
+  position: relative;
+}
+.expi {
+  display: flex;
+  justify-content: space-between;
+}
+.visa {
+  height: 30px;
+  position: absolute;
+
+  right: 15px;
+}
+.master {
+  height: 30px;
+  position: absolute;
+
+  right: 15px;
+}
