@@ -1,0 +1,16 @@
+.id-card {
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+}
+
+.id-card-image {
+    height: 120px;
+}
+
+.id-card-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-left: 3px;
+}
