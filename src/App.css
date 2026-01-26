@@ -1,0 +1,68 @@
+
+
+.card {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.info-container {
+    margin-left: 1rem;
+}
+
+.text {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.color-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    
+}
+
+.text-color-container p {
+    margin: 0;
+}
+.credit-card {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+}
+h3 {
+    margin: 0;
+}
+.credit-card p {
+    margin: 0;
+}
+
+.card-name {
+    align-self: flex-end;
+}
+.visa {
+    color: blue;
+    font-size: 2rem;
+}
+
+.master-card {
+    color: white;
+}
+.card-name .master-card {
+    background-color: red;
+    border-radius: 20px;
+}
+
+.security-number {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.security-number > span {
+    font-size: 3rem;
+}
