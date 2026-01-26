@@ -1,0 +1,18 @@
+
+
+function Greetings(props) {
+    
+    let greeting;
+    if (props.lang === 'de') 
+        {greeting ='Hallo'}
+    else if(props.lang === 'fr') 
+        { greeting='Bonjour'};
+  
+    return (
+    <div class ="text-border">
+        <p>{greeting} {props.children}</p>
+    </div>
+  )
+}
+
+export default Greetings
