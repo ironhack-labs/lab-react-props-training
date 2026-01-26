@@ -1,0 +1,29 @@
+#container {
+  display: flex;
+  border: 2px solid black;
+  gap: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 800px;
+  height: 200px;
+}
+
+#greetings {
+  border: 2px solid black;
+  padding: 5px;
+  margin: 10px;
+}
+
+#random{
+  border: 2px solid black;
+  padding: 5px;
+  margin: 10px;
+}
+
+#colors {
+  border: 2px solid black;
+  padding: 5px;
+  margin: 10px;
+  font-size: 10px;
+  text-align: center;
+}
