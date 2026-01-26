@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.infoCard {
+  margin-left: 5px;
+}
+
+.credConatiner {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  
+}
+
+.creditCard{
+  width: 30%;
+  border: 1px solid black;
+  height: 150px;
+  border-radius: 5%;
+  align-content: space-evenly;
+  
+}
+
+.container {
+  padding:10px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.license {
+  background-color: #455EB5;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  border-radius:2%;
+  color: white;
+}
+
+
