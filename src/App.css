@@ -1,0 +1,19 @@
+
+.cardData {
+  border: 1px solid #ccc;
+  padding: 16px;
+  max-width: 90%;
+  margin: 12px auto;
+  display:flex;
+  align-items: center;
+  gap: 16px;
+  
+}
+
+#profilePic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover; 
+  
+}
+
