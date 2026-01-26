@@ -1,0 +1,26 @@
+.containerDriverCard {
+  background-color: #455eb5;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+.imgDriverCard {
+  margin-right: 10px;
+}
+.imgDriverCard img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 200px;
+}
+.info {
+  color: white;
+}
+.info p {
+  margin: 0;
+}
+.car {
+  font-size: 0.7rem;
+}

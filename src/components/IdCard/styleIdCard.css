@@ -1,0 +1,16 @@
+.containerIdCard {
+  border: 2px solid black;
+  display: flex;
+  margin-inline: 15px;
+  margin-top: 15px;
+}
+.containerIdCard img {
+  margin: 10px;
+  object-fit: cover;
+}
+.containerIdCard span {
+  font-weight: 700;
+}
+.containerIdCard p {
+  margin-block: 5px;
+}
