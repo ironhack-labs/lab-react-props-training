@@ -1,0 +1,9 @@
+.random {
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px 0;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+    max-width: 300px;
+  }
