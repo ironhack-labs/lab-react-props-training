@@ -1,0 +1,43 @@
+.cardContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin: 10px;
+  border: 1px solid black;
+}
+.infoContainer {
+  margin-left: 10px;
+}
+b {
+  margin-right: 5px;
+}
+.greeter {
+  border: 1px solid black;
+  margin-left: 10px;
+}
+.randomNum {
+  margin-left: 10px;
+}
+.boxColorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  font-weight: 700;
+}
+.driverContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: rgb(48, 30, 167);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.driverContainer img {
+  object-fit: cover;
+  height: 80%;
+  width: auto;
+  border-radius: 50%;
+}
