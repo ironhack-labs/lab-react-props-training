@@ -1,0 +1,30 @@
+.id-card{
+    display: flex;
+    align-items: center;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    background-color: aqua;
+   
+}
+
+.imagen {
+    text-align: left;
+    background-color: black;
+}
+
+.Greetings {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    background-color: aquamarine;
+}
+
+.Random {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    background-color: rgb(45, 199, 226);
+}
