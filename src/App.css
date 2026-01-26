@@ -1,0 +1,34 @@
+.App {
+    margin: 10px;
+}
+
+.box {
+    border: solid black 1px;
+    margin: 20px 0;
+    padding: 10px;
+    display: flex;
+}
+
+.photo {
+   height: 100%;
+    
+}
+
+.idData {
+    font-size: 12px;
+    padding: 0 10px;
+    font-weight: bold;
+
+}
+
+.greetings {
+    border: solid black 1px;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.random {
+    border: solid black 1px;
+    margin: 20px 0;
+    padding: 10px;
+}
