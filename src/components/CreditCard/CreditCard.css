@@ -1,0 +1,35 @@
+.creditCard {
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(17, 170, 153);
+  color: white;
+}
+
+.type {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.visa {
+  width: 57px;
+  height: 20px;
+}
+
+.masterCard {
+  width: 34px;
+  height: 20px;
+}
+
+.number {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bank {
+    margin-left: 20px;
+}
