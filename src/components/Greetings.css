@@ -1,0 +1,6 @@
+.greetings-box {
+  display: flex;
+  border: 1px solid;
+  padding: 2px;
+  margin: 0.5em;
+}
