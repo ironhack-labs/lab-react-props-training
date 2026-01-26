@@ -1,0 +1,58 @@
+.id-card {
+  display: flex;
+  align-items:center;
+ border: 2px solid black;
+ margin: 10px
+
+}
+
+
+.id-card img {
+  width: 160px;
+ border: 2px solid black;
+ margin: 10px;
+}
+
+.id-details {
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.greeting {
+ border: 2px solid black;
+ margin: 10px;
+ font-weight: bold;
+  font-size: 20px;
+}
+
+.numeros {
+  border: 2px solid black;
+ margin: 10px;
+ font-weight: bold;
+  font-size: 20px;
+}
+.box {
+  border: 2px solid black;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.creditCard {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.type {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.number {
+  font-size: 50px;
+  text-align: center;
+  
+}
