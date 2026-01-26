@@ -1,13 +1,48 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 10px;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.IdCard {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.IdCard img {
+  display: flex;
+  width: 125px;
+  height: 125px;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.id-content {
+  line-height: 20%;
+}
+
+.strong {
+  font-weight: bold;
 }
