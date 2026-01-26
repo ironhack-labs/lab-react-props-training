@@ -1,0 +1,15 @@
+.rectangle {
+    height: 100px;
+    border-color: black;
+    border: 2px, solid;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.prectangle {
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
