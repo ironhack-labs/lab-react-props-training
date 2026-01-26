@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    border-style:solid;
+    border-color: black;
+    margin: 5px;
+}
+
+.text-container {
+text-align: left;
+line-height: 1px;
+margin:1px;
+
+}
+
+span{
+    font-weight: bold
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+}
