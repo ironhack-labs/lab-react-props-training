@@ -11,3 +11,127 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#home {
+  display: flex;
+  flex-direction: column;
+  margin: 6px auto;
+}
+#id-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.img-firm img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.info-firm {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.info-firm p {
+  margin: 5px 0;
+}
+
+.info-firm h3 {
+  display: inline;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 16px;
+  color: #000;
+}
+
+.info-firm span {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+#id-card h3 {
+  font-size: 16px;
+}
+
+#id-card p {
+  font-size: 16px;
+}
+.greetings-box {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  width: auto;
+}
+
+.greetings-box p {
+  margin: 0;
+  padding: 0;
+}
+
+.random-box {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  width: auto;
+}
+
+.random-box p {
+  margin: 0;
+  padding: 0;
+}
+.credit-card {
+  width: 300px;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.credit-card-type {
+  text-align: right;
+}
+
+.credit-card-type img {
+  height: 30px;
+}
+
+.credit-card-number {
+  font-size: 24px;
+  letter-spacing: 3px;
+  margin: 10px 0;
+}
+
+.credit-card-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.credit-card-info p {
+  margin: 0;
+}
+.rating {
+  font-size: 24px;
+  margin: 10px 0;
+}
