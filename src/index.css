@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.profile {
+  border: 1px solid #333;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+
+}
+.greetings {
+   border: 1px solid #333;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+
+}
+.random-box {
+  border: 1px solid #333;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+}
