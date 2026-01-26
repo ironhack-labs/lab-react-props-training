@@ -1,0 +1,53 @@
+.driver-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 150px;
+    border-radius: 10px;
+    
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+
+    background-color: #455EB5;
+    border-radius: 10px;
+}
+
+.driver-card  p {
+    color: white;
+}
+
+.driver-picture-container {
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.profile-picture {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;;
+}
+
+.car-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.car-text-container .name{
+    font-size: 24px;
+    margin: 0;
+}
+
+.car-text-container .car-model{
+    font-size: 16px;
+    margin: 0;
+}
+
