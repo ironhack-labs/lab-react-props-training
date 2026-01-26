@@ -1,0 +1,11 @@
+article {
+
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+ul {
+    list-style: none;
+}
