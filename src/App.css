@@ -1,0 +1,90 @@
+.App {
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container {
+  padding: 5px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.container ul {
+  margin: 0;
+  padding-left: 5px;
+}
+
+.container ul li {
+  list-style: none;
+}
+
+.container ul li span {
+  font-weight: bold;
+}
+
+.boxColor {
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.credit-card {
+  padding: 5px;
+  border-radius: 15px;
+  width: 350px;
+  height: 200px;
+  display: flex;
+  position: relative
+}
+
+.credit-card img {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  height: 20px;
+}
+
+.card-text {
+  position: absolute;
+  top: 35px;
+  padding: 20px;
+}
+
+.card-text h1 {
+  font-weight: normal;
+  padding-left: 20px;
+}
+
+.driver-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #455EB5;
+  color: white;
+  border-radius: 15px;
+  width: 600px;
+  gap: 10px;
+  padding: 5px;
+}
+
+.driver-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 160px;
+}
+
+.driver-info {
+  margin: 20px;
+}
+
+.driver-info h3, .driver-info p{
+  margin: 0;
+}
