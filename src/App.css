@@ -1,0 +1,46 @@
+.id-card {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 5px;
+    height: fit-content;
+    position: relative;
+    margin-bottom: 10px;
+    /* height: fit-content; */
+}
+
+.id-card img {
+    width: 200px;
+    position: relative;
+    margin-right: 10px;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+.id-card-details {
+    vertical-align: middle;
+}
+
+.greeting {
+    border: 1px solid black;
+    width: 200px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+.random {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+.boxcolor {
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
