@@ -1,0 +1,19 @@
+.credit-card {
+  margin: 5px;
+  padding: 5px;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.type {
+  height: 20px;
+}
+
+.number {
+  text-align: center;
+  font-size: 1.7rem;
+}
