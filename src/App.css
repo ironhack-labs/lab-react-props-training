@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+}
+
+.IdCard {
+  border: 2px solid black;
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+  text-align: start;
+}
+.IdCard p {
+  margin-left: 3px;
+}
+
+img {
+  width: 10rem;
+}
+.greeting {
+  border: 2px solid black;
+  margin: 5px 10px;
+  text-align: start;
+}
+.random {
+  border: 2px solid black;
+  margin: 5px 10px;
+  text-align: start;
+}
+
+.box {
+  height: 50px;
+  border: 2px solid black;
+  margin: 5px 10px;
+  color: white;
+  font-size: x-large;
+}
