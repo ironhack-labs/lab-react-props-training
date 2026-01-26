@@ -1,0 +1,24 @@
+#manolo{
+text-align: center;
+margin:20px;
+border: solid 1px black;
+display: flex;
+align-items: center;
+width: 600px;
+}
+
+#parrafos{
+    text-align: justify;
+    margin-left: 20px;
+
+}
+
+.foto{
+    margin: 5px;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+
+
+
+}
