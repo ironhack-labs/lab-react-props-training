@@ -1,0 +1,16 @@
+.boxcolor {
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.boxcolor p {
+    margin: 0;
+}
