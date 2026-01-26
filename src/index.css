@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.idcard {
+  border: 1px solid black;
+  margin: 10px;
+  width: 50%;
+  padding-left: 10px;
+}
+
+.idcard div {
+  display: inline-block;
+  margin-left: 10px;
+  line-height: 75%;
+}
+
+.greeting, .random, .box {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-weight: bold;
+  border: 1px solid black;
+  width: 50%;
+  height: 40px;
+  margin: 10px 0 0 10px;
+
+}
