@@ -1,0 +1,42 @@
+h2 {
+  margin: 10px;
+  padding: 8px;
+  background-color: rgb(76, 106, 132);
+}
+
+#card {
+  display: flex;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+#card img {
+  width: 150px;
+  height: 180px;
+  margin: auto 10px;
+}
+
+#card p {
+  font-weight: bold;
+}
+
+#card p span {
+  font-weight: normal;
+}
+
+/* Iteración 2 */
+.box {
+  border: 2px solid black;
+  margin: 10px;
+  padding: 20px;
+}
+
+#credit-card  {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 120px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
