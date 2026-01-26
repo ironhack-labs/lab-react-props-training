@@ -1,0 +1,15 @@
+h2 {
+    margin-left: 50px;
+}
+
+.boxColorStyles {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
