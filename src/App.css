@@ -1,0 +1,21 @@
+.App {
+  margin: 10px 10px;
+}
+.id-card {
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  height: 10rem;
+  margin-bottom: 10px;
+}
+
+.id-card ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+}
+
+.greeting-card {
+  border: 1px solid black;
+  padding: 5px;
+}
