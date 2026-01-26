@@ -1,0 +1,22 @@
+#card {
+  border: solid 2px black;
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+}
+.pic {
+  width: 40%;
+}
+#texto {
+  padding-left: 10px;
+}
+
+#greetings {
+  border: solid 2px black;
+  padding: 5px;
+}
+#box-color {
+  border: solid 2px black;
+  text-align: center;
+  padding:2%;
+}
