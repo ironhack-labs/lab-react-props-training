@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-id{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  gap:10px
+}
+.greeting{
+  margin-left: 5px;
+  border: 1px solid black;
+  padding: 5px;
+}
+.random{
+  margin-left: 5px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.credit-card{
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: lightgray;
+}
