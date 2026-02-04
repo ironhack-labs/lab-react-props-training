@@ -1,0 +1,32 @@
+.id-card {
+ 
+display: flex;
+justify-content: flex-start;
+
+  
+  gap: 20px;
+
+  border: 2px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.id-card img {
+  width: 120px;
+  height: auto;
+}
+
+
+
+
+.id-card p {
+  margin: 0;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  
+  padding: 4px 6px;
+}
