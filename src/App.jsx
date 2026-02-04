@@ -1,16 +1,27 @@
 
 import "./App.css";
-import IdCard from "./components/IdCard";
+import IdCard from "./components/IdCard/IdCard";
 import Greetings from "./components/Greetings";
 import Random from "./components/Random";
 import BoxColor from "./components/BoxColor";
 import CreditCard from "./components/CreditCard";
 import Rating from "./components/Rating";
-import DriverCard from "./components/DriverCard";
+
+import DriverCard from "./components/DriverCard.jsx"; // Corrected import statement
+import useTheme from "./hooks/useTheme";
 
 function App() {
+  const [theme, toggleTheme] = useTheme();
   return (
-    <div className="App">
+    <div className={`App ${theme}`}>
+      <button
+        className="theme-toggle"
+        onClick={toggleTheme}
+        aria-label="Alternar tema escuro/claro"
+        style={{ marginBottom: 16 }}
+      >
+        {theme === "light" ? "🌙 Modo Escuro" : "☀️ Modo Claro"}
+      </button>
       <h1>LAB | React Training</h1>
 
       <IdCard
@@ -39,7 +50,7 @@ function App() {
       <BoxColor r={255} g={0} b={0} />
       <BoxColor r={128} g={255} b={0} />
 
-      <div style={{ display: 'flex', gap: '10px', marginBottom: '10px' }}>
+      <div className="credit-cards">
         <CreditCard
           type="Visa"
           number="0123456789018845"

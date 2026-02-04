@@ -1,0 +1,193 @@
+
+
+
+body.light {
+	background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+	color: #222;
+}
+body.dark {
+	background: linear-gradient(120deg, #232526 0%, #414345 100%);
+	color: #f3f3f3;
+}
+
+.App.light {
+	background: #fff;
+	color: #222;
+}
+
+.App.dark {
+	background: #232526;
+	color: #f3f3f3;
+	box-shadow: 0 6px 32px rgba(20,20,40,0.32);
+}
+
+.App.dark .id-card,
+.App.dark .greetings,
+.App.dark .random,
+.App.dark .box-color,
+.App.dark .credit-card,
+.App.dark .driver-card {
+	background: #2c2f36;
+	color: #f3f3f3;
+	border-color: #444;
+}
+.App.dark .credit-card {
+	color: #fff;
+}
+.App.dark .box-color {
+	color: #fff;
+}
+.App.dark .rating {
+	color: #FFD700;
+}
+
+.theme-toggle {
+	background: #455EB5;
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	padding: 8px 18px;
+	font-size: 1em;
+	cursor: pointer;
+	transition: background 0.2s;
+	margin-bottom: 18px;
+}
+.theme-toggle:hover {
+	background: #5d8bf4;
+}
+
+.App {
+	max-width: 420px;
+	margin: 40px auto;
+	background: #fff;
+	padding: 32px 18px;
+	border-radius: 18px;
+	box-shadow: 0 6px 32px rgba(60,80,120,0.12);
+	display: flex;
+	flex-direction: column;
+	gap: 22px;
+}
+
+
+h1 {
+	text-align: center;
+	margin-bottom: 24px;
+	font-size: 2.1em;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.App.light h1 {
+	color: #455EB5;
+}
+.App.dark h1 {
+	color: #f3f3f3;
+}
+
+.id-card {
+	display: flex;
+	align-items: center;
+	border: 1px solid #e3e3e3;
+	border-radius: 10px;
+	background: #fafbfc;
+	padding: 14px 18px;
+	gap: 18px;
+	box-shadow: 0 2px 8px rgba(60,80,120,0.04);
+}
+.id-card img {
+	width: 80px;
+	border-radius: 8px;
+}
+.id-card p {
+	margin: 2px 0;
+	font-size: 1em;
+}
+
+.greetings {
+	border: 1px solid #e3e3e3;
+	border-radius: 8px;
+	background: #f5f7fa;
+	padding: 10px 16px;
+	font-size: 1.1em;
+}
+
+.random {
+	border: 1px solid #e3e3e3;
+	border-radius: 8px;
+	background: #f5f7fa;
+	padding: 10px 16px;
+	font-size: 1.1em;
+}
+
+.box-color {
+	border-radius: 8px;
+	border: 1px solid #e3e3e3;
+	padding: 18px 0;
+	margin-bottom: 0;
+	font-size: 1.1em;
+	font-weight: 500;
+	box-shadow: 0 2px 8px rgba(60,80,120,0.04);
+}
+
+.credit-cards {
+	display: flex;
+	gap: 12px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.credit-card {
+	background: linear-gradient(120deg, #f7fafc 0%, #e3eafc 100%);
+	border-radius: 14px;
+	box-shadow: 0 2px 12px rgba(60,80,120,0.08);
+	width: 140px;
+	padding: 16px 12px;
+	color: inherit;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	font-size: 0.95em;
+}
+.credit-card img {
+	height: 18px;
+}
+.credit-card .card-number {
+	font-size: 1.1em;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin: 6px 0;
+}
+
+.rating {
+	font-size: 2em;
+	text-align: left;
+	margin-bottom: 0;
+	color: #FFD700;
+	letter-spacing: 2px;
+}
+
+.driver-card {
+	background: linear-gradient(120deg, #455EB5 0%, #5d8bf4 100%);
+	color: #fff;
+	border-radius: 14px;
+	box-shadow: 0 2px 12px rgba(60,80,120,0.10);
+	display: flex;
+	align-items: center;
+	gap: 18px;
+	padding: 18px 16px;
+	margin-bottom: 0;
+}
+.driver-card img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 2px solid #fff;
+}
+.driver-card h2 {
+	margin: 0 0 6px 0;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+.driver-card .car-info {
+	font-size: 1em;
+	opacity: 0.9;
+}

@@ -1,5 +1,45 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+# LAB | React Props Training
 
+Este projeto é um laboratório para treinar o uso de props em React, com componentes funcionais e estilização profissional.
+
+## Componentes
+- **IdCard**: Exibe informações de uma pessoa.
+- **Greetings**: Saudação em diferentes idiomas.
+- **Random**: Número aleatório entre dois valores.
+- **BoxColor**: Caixa colorida com cor RGB e HEX.
+- **CreditCard**: Cartão de crédito estilizado.
+- **Rating**: Estrelas de avaliação.
+- **DriverCard**: Informações de motorista com avaliação e carro.
+
+## Melhorias Profissionais
+- Componentização e CSS modular
+- Responsividade
+- Acessibilidade
+- Feedback visual (hover/focus)
+- Validação de props com PropTypes
+- Testes unitários (Jest + React Testing Library)
+- Comentários e documentação
+- Performance com React.memo
+
+## Scripts
+- `npm install` — instala dependências
+- `npm run dev` — inicia servidor de desenvolvimento
+- `npm test` — executa testes unitários
+
+## Estrutura
+- src/components: componentes organizados
+- src/App.jsx: exemplo de uso dos componentes
+- src/App.css: estilos globais e responsivos
+
+## Como rodar
+1. Instale as dependências: `npm install`
+2. Inicie o projeto: `npm run dev`
+3. Execute os testes: `npm test`
+
+---
+
+Sinta-se livre para customizar e expandir os componentes!
 # LAB | React Props Training
 
 <details>

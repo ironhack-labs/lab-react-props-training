@@ -1,15 +1,31 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Rating from './Rating';
-
-export default function DriverCard({ name, rating, img, car }) {
+/**
+ * DriverCard Component
+ * Exibe informações de um motorista com avaliação e dados do carro.
+ */
+const DriverCard = React.memo(function DriverCard({ name, rating, img, car }) {
   return (
-    <div style={{ backgroundColor: '#455EB5', color: 'white', borderRadius: '10px', display: 'flex', alignItems: 'center', padding: '20px', marginBottom: '10px' }}>
-      <img src={img} alt={name} style={{ width: '100px', height: '100px', borderRadius: '50%', objectFit: 'cover', marginRight: '20px' }} />
+    <section className="driver-card" aria-label={`Driver card for ${name}`}> 
+      <img src={img} alt={`Foto de ${name}`} />
       <div>
         <h2>{name}</h2>
         <Rating>{rating}</Rating>
-        <div>{car.model} - {car.licensePlate}</div>
+        <div className="car-info">{car.model} - {car.licensePlate}</div>
       </div>
-    </div>
+    </section>
   );
-}
+});
+
+DriverCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  rating: PropTypes.number.isRequired,
+  img: PropTypes.string.isRequired,
+  car: PropTypes.shape({
+    model: PropTypes.string.isRequired,
+    licensePlate: PropTypes.string.isRequired,
+  }).isRequired,
+};
+
+export default DriverCard;
