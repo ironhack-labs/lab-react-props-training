@@ -1,0 +1,14 @@
+.id-card {
+    display: flex;
+    border: 1px solid;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.id-card img {
+    height: 95%;
+    width: 80%;
+    object-fit: contain;
+    margin-right: 100px;
+    margin-left: 15px;
+}
