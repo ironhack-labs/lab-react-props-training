@@ -1,0 +1,16 @@
+#container1{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    margin: 1vh;
+    padding: 1vw;
+}
+
+#img-container{
+    width: 16%;
+    height: auto;
+}
+
+#img-container img{
+    height: 100%;
+}
