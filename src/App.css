@@ -1,0 +1,100 @@
+h1 {
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.id-card {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 5px;
+  line-height: 0.4rem;
+}
+
+.greetings {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    font-size: 1.3rem;
+}
+
+.random {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    font-size: 1.3rem;
+}
+
+.box-color {
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    border: 2px solid black;
+}
+
+.credit-card {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30vw;
+    height: 25vh;
+    margin: 10px;
+    padding: 20px;
+}
+
+.credit-card p {
+    margin: 0;
+}
+
+.credit-card-row {
+    display: flex;
+}
+
+.star-container {
+    margin: 10px;
+}
+
+.rating {
+  --star-size: 30px;
+  --star-color: royalblue; /* Empty star color */
+  --star-background: white; /* Filled star color */
+  
+  display: block;
+  font-size: var(--star-size);
+  line-height: 1;
+}
+
+.rating::before {
+  content: '★★★★★';
+  letter-spacing: 3px;
+  -webkit-text-stroke: 2px white;
+  background: linear-gradient(90deg, 
+    var(--star-background) var(--percent), 
+    var(--star-color) var(--percent)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.driver-card {
+    margin: 10px;
+    padding: 10px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
