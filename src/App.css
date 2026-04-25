@@ -1,0 +1,17 @@
+.idCardBox{
+border: black 1px solid;
+padding: 5px;
+margin:5px;
+
+}
+
+.idCardBox p{
+    margin:0;
+    padding: 0;
+    margin-left: 5px;
+
+}
+
+.idCardBox img{
+    max-height: 100px;
+}
