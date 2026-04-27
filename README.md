@@ -267,6 +267,7 @@ The component should take 1 prop:
 **Example:**
 
 ```jsx
+
 <Rating>0</Rating>
 <Rating>1.49</Rating>
 <Rating>1.5</Rating>
