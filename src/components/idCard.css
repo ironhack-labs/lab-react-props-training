@@ -1,0 +1,15 @@
+.id-cards {
+  border: 2px solid black;
+  margin: .5rem;
+  padding: .5rem;
+  display: flex;
+}
+
+.id-cards > img {
+  object-fit: contain;
+}
+
+p {
+  margin: 0;
+  padding-left: 3px;
+}
