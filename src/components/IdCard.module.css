@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid;
+    margin: 0 5px 10px;
+    padding: 2px;
+}
+
+.container > img {
+    width: auto;
+    height: 200px;
+}
+
+.container .infos > p {
+    font-weight: bold;
+    text-align: left;
+}
+
+.infos span {
+    font-weight: lighter;
+}
