@@ -1,0 +1,17 @@
+
+.driver-card {
+    border: 1px solid black;
+    width: 400px;
+    height: 150px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.driver-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
