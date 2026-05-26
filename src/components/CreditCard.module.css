@@ -1,0 +1,40 @@
+.card p,
+.card img {
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+.bankDetails p {
+    margin: 0;
+}
+
+.card img {
+    height: 20px;
+    width: auto;
+}
+
+.card {
+    border-radius: 10px;
+    margin: 0 5px 10px;
+    padding: 15px 20px;
+    color: white;
+    display: inline-block;
+    text-align: right;
+}
+
+.card #numbers {
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-weight: 700;
+}
+
+.card .bankDetails {
+    display: flex;
+    flex: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    width: 280px;
+}
