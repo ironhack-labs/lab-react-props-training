@@ -1,0 +1,32 @@
+* {
+    font-family: sans-serif;
+}
+
+.id-card {
+    display: flex;
+    align-items: flex-start;
+
+
+}
+
+.container {
+    border: black solid 1px;
+    margin: 10px 0 10px 5px;
+    padding: 4px;
+
+}
+
+.image-container img {
+    height: 150px;
+    margin-right: 10px;
+}
+
+.info-container {
+    height: 150px;
+    font-size: 0.6em;
+}
+
+.color-box{
+    display: flex;
+    justify-content: center;
+}
