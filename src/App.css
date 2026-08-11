@@ -1,0 +1,17 @@
+.greeting1 , .greeting2{
+border: 2px solid black;
+margin: 5px;
+font-size: 10px;
+padding-left: 10px;}
+.id{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 30px;
+    border: 2px solid black;
+    margin: 5px;
+}
+span{
+    font-size: smaller;
+    font-weight: lighter;
+}
