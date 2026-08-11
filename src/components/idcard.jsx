@@ -1,12 +1,31 @@
-function IdCard(props) {
+import "./IdCard.css";
+
+function IdCard({ lastName, firstName, gender, height, birth, picture }) {
   return (
-    <div>
-      <img src={props.picture} alt={`${props.firstName} ${props.lastName}`} />
-      <p>First name: {props.firstName}</p>
-      <p>Last name: {props.lastName}</p>
-      <p>Gender: {props.gender}</p>
-      <p>Height: {props.height} cm</p>
-      <p>Birth: {props.birth.toDateString()}</p>
+    <div className="id-card">
+      <img src={picture} alt={`${firstName} ${lastName}`} />
+
+      <div className="id-card-info">
+        <div>
+          <strong>First name:</strong> {firstName}
+        </div>
+
+        <div>
+          <strong>Last name:</strong> {lastName}
+        </div>
+
+        <div>
+          <strong>Gender:</strong> {gender}
+        </div>
+
+        <div>
+          <strong>Height:</strong> {height / 100}m
+        </div>
+
+        <div>
+          <strong>Birth:</strong> {birth.toDateString()}
+        </div>
+      </div>
     </div>
   );
 }
