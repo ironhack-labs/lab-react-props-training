@@ -1,0 +1,22 @@
+.id-card {
+  padding: 4px;
+  margin: 4px;
+  display: flex;
+  gap: 8px;
+  border: 2px solid #000000;
+}
+
+.id-card p {
+  padding: 0;
+  margin: 0;
+}
+
+.user-details-label {
+  font-weight: bold;
+}
+
+.greeting-message, .random-number, .box-color {
+  margin: 4px;
+  padding: 4px;
+  border: 2px solid #000000;
+}
