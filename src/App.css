@@ -1,0 +1,68 @@
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    border: 1px solid black;
+    width: 80%;
+    padding: 4px;
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+    margin: 4px;
+}
+
+.container {
+    margin: 20px;
+}
+
+.box-container {
+    width: 40%;
+    border: 1px solid black;
+    margin: 16px;
+    padding: 40px;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+
+.credit-card{
+    width: 280px;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 14px;
+    justify-content: space-between;
+}
+
+.card-type {
+    text-align: right;
+    font-weight: 700;
+}
+
+.card-details > span {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    gap: 18px;
+}
+
+.card-details > p {
+    font-size: 12px;
+}
+
+.card-number {
+    font-size: 24px;
+    text-align: center;
+}
