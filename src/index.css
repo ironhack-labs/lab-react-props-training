@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid black;
+}
+
+#card-img{
+  width: auto;
+  height: 100%;
+  
+}
+
+#cards-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+p{
+  margin: 0;
+}
+
+.wrapper{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.box{
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+#boxcolor{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+#creditcard{
+  width: 300px;
+  height: 160px;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#logo-card-wrapper{
+  display: flex;
+  justify-content: right;
+  height: 20px;
+ 
+}
+
+#logo-card{
+  height: 100%;
+}
+
+#card-number-wrapper{
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#card-details{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
