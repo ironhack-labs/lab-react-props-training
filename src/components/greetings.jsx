@@ -1,5 +1,3 @@
-import "./greetings.css"
-
 function Greetings({ lang, children}) {
 
   const greetings = {
@@ -12,7 +10,7 @@ function Greetings({ lang, children}) {
 
   return (
     <>
-    <p className="greeting">{greetings[lang]} {children}</p>
+    <p className="box">{greetings[lang]} {children}</p>
     </>
   )
 }
