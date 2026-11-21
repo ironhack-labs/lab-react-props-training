@@ -1,8 +1,8 @@
 import "./App.css";
 import IdCard from "./components/Id-card";
-import Greetings from "./components/Greetings";
-import Random from "./components/Random";
-import BoxColor from "./components/BoxColor";
+import Greetings from "./components/greetings";
+import Random from "./components/random";
+import BoxColor from "./components/boxColor";
 
 function App() {
   return (

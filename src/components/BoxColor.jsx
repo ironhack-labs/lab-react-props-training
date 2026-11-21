@@ -1,4 +1,4 @@
-import "./BoxColor.css"
+import "./boxColor.css"
 
 function BoxColor({r,g,b}) {
 
