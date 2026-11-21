@@ -1,0 +1,10 @@
+.App {
+  padding: 20px;
+}
+
+.creditCards{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}

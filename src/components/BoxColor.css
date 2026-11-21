@@ -1,0 +1,8 @@
+.boxColor {
+  border: 2px solid black;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}

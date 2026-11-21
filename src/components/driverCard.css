@@ -1,0 +1,35 @@
+.card {
+  background-color: #455EB5;
+  margin-bottom: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  border-radius: 15px;
+
+}
+
+.img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info{
+  display: flex;
+  flex-direction: column
+  ;
+}
+
+.bold{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.stars{
+  font-size: 28px;
+}
