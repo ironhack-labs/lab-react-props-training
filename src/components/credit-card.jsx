@@ -4,25 +4,20 @@ function CreditCard (props) {
         color: props.color
     }
 
-    let secretNumber = ""
+    let lastDigits = ""
 
     for (let i = 0; i < props.number.length; i++) {
-        if ((i < props.number.length - 4 && !(i % 4 === 0)) || i === 0) {
-            secretNumber += "•"
-        } else if (i < props.number.length - 4 && (i % 4 === 0)) {
-            secretNumber += " •"
-        } else if (i === props.number.length - 4) {
-            secretNumber += ` ${props.number[i]}`
-        } else {
-            secretNumber += props.number[i]
-        }
-    }
+        if (i >= props.number.length - 4) {
+            lastDigits += props.number[i]
+    }   }
+
+    let secretNumber = `•••• •••• •••• ${lastDigits}`
     
     let source = ""
     if (props.type === "Visa") {
-        source = "src/assets/images/visa.png"
+        source = "./src/assets/images/visa.png"
     } else if (props.type === "Master Card") {
-        source = "src/assets/images/master-card.svg"
+        source = "./src/assets/images/master-card.svg"
     }
 
 
