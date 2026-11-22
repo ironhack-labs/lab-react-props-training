@@ -12,6 +12,8 @@ import BoxColor from './components/box-color';
 import './components/box-color.css'
 import CreditCard from './components/credit-card';
 import './components/credit-card.css'
+import Rating from './components/rating';
+import './components/rating.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -77,6 +79,13 @@ root.render(
       />
       
     </div>
+
+    <Rating>0</Rating>
+    <Rating>1.49</Rating>
+    <Rating>1.5</Rating>
+    <Rating>3</Rating>
+    <Rating>4</Rating>
+    <Rating>5</Rating>
 
   </React.StrictMode>
 );
