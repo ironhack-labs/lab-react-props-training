@@ -1,0 +1,37 @@
+.driverCar {
+    background-color: rgb(78, 78, 174);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.photo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.driversInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.driversName {
+    font-weight: bold;
+    padding: 6px 0;
+}
+
+.driversRating img {
+    height: 30px;
+    width: auto;
+}
+
+.car {
+    font-size: 0.8rem;
+}
