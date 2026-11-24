@@ -1,0 +1,23 @@
+.id-card {
+    display: flex;
+    border: 2px solid black;
+    padding: 0;
+    margin: 15px 5px;
+    gap: 8px;
+}
+
+.id-card img {
+    width: 220px;
+    height: 220px;
+    margin: 5px;
+}
+
+.id-card div {
+   padding-top: 3px;
+   margin-left: -5px;
+}
+
+.id-card p {
+    margin: 0;
+    font-size: 23px;
+}
