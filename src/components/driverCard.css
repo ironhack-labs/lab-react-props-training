@@ -1,0 +1,40 @@
+.driverCard {
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 10px;
+  padding: 20px;
+
+  background: #455EB5;
+
+  color: white;
+}
+
+  .driverCard-avatar {
+    border-radius: 50%;
+    max-width: 100px;
+    height: 100px; 
+
+    aspect-ratio: 1/1;
+  }
+
+  .driverCard-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+    .driverCard-name {
+      margin: 0;
+    }
+
+    .driverCard .stars {
+      padding: 0;
+      font-size: 30px;
+    }
+
+    .driverCard-car {
+      margin: 0;
+
+      font-size: 14px;
+    }
